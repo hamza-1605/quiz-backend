@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hscodeworks.quiz_backend.features.category.dto.CategoryRequest;
 import com.hscodeworks.quiz_backend.features.category.dto.CategoryResponse;
 import com.hscodeworks.quiz_backend.features.content.ContentVersionService;
+import com.hscodeworks.quiz_backend.features.question.QuestionRepository;
 import com.hscodeworks.quiz_backend.common.exception.ConflictException;
 import com.hscodeworks.quiz_backend.common.exception.ResourceNotFoundException;
 
@@ -20,6 +21,7 @@ public class CategoryService {
 
     private final CategoryRepository categoryRepository;
     private final ContentVersionService contentVersionService;
+    private final QuestionRepository questionRepository;
 
 
     @Transactional(readOnly = true)
@@ -69,6 +71,9 @@ public class CategoryService {
     @Transactional
     public void delete(Long id) {
         Category category = findOrThrow(id);
+        if ( questionRepository.existsByCategoryId(id) ) {
+            throw new ConflictException( "Category '" + category.getName() + "' still has questions. Delete them first." );
+        }
         categoryRepository.delete(category);
         contentVersionService.incrementVersion();
     }
