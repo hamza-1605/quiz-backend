@@ -6,6 +6,7 @@ import java.util.Map;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -34,6 +35,21 @@ public class GlobalExceptionHandler {
         ProblemDetail problem = ProblemDetail.forStatusAndDetail( HttpStatus.BAD_REQUEST, "Validation failed" );
         problem.setProperty("errors", errors);
         return problem;
+    }
+
+
+    @ExceptionHandler( BadRequestException.class )
+    public ProblemDetail handleBadRequest(BadRequestException ex) {
+        return ProblemDetail.forStatusAndDetail( HttpStatus.BAD_REQUEST, ex.getMessage() );
+    }
+
+
+    @ExceptionHandler( HttpMessageNotReadableException.class )
+    public ProblemDetail handleUnreadableBody(HttpMessageNotReadableException ex) {
+        return ProblemDetail.forStatusAndDetail(
+            HttpStatus.BAD_REQUEST,
+            "Malformed request body. Check the JSON syntax and enum values such as 'type'."
+        );
     }
 
 
