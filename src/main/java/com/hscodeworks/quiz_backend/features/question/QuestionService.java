@@ -125,7 +125,7 @@ public class QuestionService {
 
     private Question findOrThrow(Long id) {
         return questionRepository.findWithOptionsById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Question " + id + " not found"));
+                .orElseThrow(() -> new ResourceNotFoundException("Question of ID #" + id + " not found"));
     }
 
 
