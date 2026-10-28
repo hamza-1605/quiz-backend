@@ -15,4 +15,8 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
     List<Question> findByCategoryIdOrderById(Long categoryId);
 
     boolean existsByCategoryId(Long categoryId);
+
+    // get all questions with options
+    @EntityGraph(attributePaths = "options")
+    List<Question> findAllByOrderById();
 }
