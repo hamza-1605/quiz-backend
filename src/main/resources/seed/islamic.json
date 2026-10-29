@@ -1,0 +1,31 @@
+{
+  "category": {
+    "name": "Islamic",
+    "color": "#C5C202"
+  },
+  "questions": [
+    {
+      "questionText": "What is the name of the God Almighty?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "ALLAH has primarily 99 attributes & names; but they are not limited to 99.",
+      "options": [
+        {
+          "text": "Allah",
+          "correct": true
+        },
+        {
+          "text": "Jesus",
+          "correct": false
+        },
+        {
+          "text": "Brahma",
+          "correct": false
+        },
+        {
+          "text": "Krishna",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

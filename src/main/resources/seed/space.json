@@ -1,0 +1,616 @@
+{
+  "category": {
+    "name": "Space",
+    "color": "#2E86DE"
+  },
+  "questions": [
+    {
+      "questionText": "Which planet is known as the Red Planet?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Mars looks red because iron oxide, or rust, covers much of its surface.",
+      "options": [
+        {
+          "text": "Venus",
+          "correct": false
+        },
+        {
+          "text": "Mars",
+          "correct": true
+        },
+        {
+          "text": "Jupiter",
+          "correct": false
+        },
+        {
+          "text": "Mercury",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the name of the galaxy in which our Solar System is located?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Our Solar System is part of the Milky Way galaxy.",
+      "options": [
+        {
+          "text": "Andromeda",
+          "correct": false
+        },
+        {
+          "text": "Whirlpool",
+          "correct": false
+        },
+        {
+          "text": "Milky Way",
+          "correct": true
+        },
+        {
+          "text": "Sombrero",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the largest planet in our Solar System?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Jupiter is the largest planet in our Solar System by both diameter and mass.",
+      "options": [
+        {
+          "text": "Saturn",
+          "correct": false
+        },
+        {
+          "text": "Earth",
+          "correct": false
+        },
+        {
+          "text": "Neptune",
+          "correct": false
+        },
+        {
+          "text": "Jupiter",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is the closest star to Earth?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Sun is indeed a Star.",
+      "options": [
+        {
+          "text": "Sirius",
+          "correct": false
+        },
+        {
+          "text": "The Sun",
+          "correct": true
+        },
+        {
+          "text": "Proxima Centauri",
+          "correct": false
+        },
+        {
+          "text": "Polaris",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which planet is famous for its prominent rings?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The rings of Saturn are made mostly of ice and rocky material.",
+      "options": [
+        {
+          "text": "Saturn",
+          "correct": true
+        },
+        {
+          "text": "Mars",
+          "correct": false
+        },
+        {
+          "text": "Venus",
+          "correct": false
+        },
+        {
+          "text": "Mercury",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many planets are in our Solar System?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Our Solar System has eight recognized planets. Pluto is considered as a Dwarf Planet",
+      "options": [
+        {
+          "text": "7",
+          "correct": false
+        },
+        {
+          "text": "8",
+          "correct": true
+        },
+        {
+          "text": "9",
+          "correct": false
+        },
+        {
+          "text": "10",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which planet is closest to the Sun?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Mercury is the innermost planet in our Solar System.",
+      "options": [
+        {
+          "text": "Venus",
+          "correct": false
+        },
+        {
+          "text": "Earth",
+          "correct": false
+        },
+        {
+          "text": "Mercury",
+          "correct": true
+        },
+        {
+          "text": "Mars",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is Earth's natural satellite called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Moon is Earth's natural satellite. (also called Luna)",
+      "options": [
+        {
+          "text": "Titan",
+          "correct": false
+        },
+        {
+          "text": "Europa",
+          "correct": false
+        },
+        {
+          "text": "The Moon",
+          "correct": true
+        },
+        {
+          "text": "Phobos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which planet is known for rotating on its side?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Uranus has an extreme axial tilt, so it rotates almost on its side.",
+      "options": [
+        {
+          "text": "Uranus",
+          "correct": true
+        },
+        {
+          "text": "Jupiter",
+          "correct": false
+        },
+        {
+          "text": "Mars",
+          "correct": false
+        },
+        {
+          "text": "Mercury",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What force keeps planets in orbit around the Sun?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Sun's gravity keeps the planets in their orbits.",
+      "options": [
+        {
+          "text": "Magnetism",
+          "correct": false
+        },
+        {
+          "text": "Friction",
+          "correct": false
+        },
+        {
+          "text": "Gravity",
+          "correct": true
+        },
+        {
+          "text": "Electricity",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the name of the first artificial satellite launched into space?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Sputnik 1 was launched by the Soviet Union in 1957.",
+      "options": [
+        {
+          "text": "Apollo 11",
+          "correct": false
+        },
+        {
+          "text": "Voyager 1",
+          "correct": false
+        },
+        {
+          "text": "Sputnik 1",
+          "correct": true
+        },
+        {
+          "text": "Hubble",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which planet has the Great Red Spot, a giant storm?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Great Red Spot is a huge, long-lasting storm in Jupiter's atmosphere.",
+      "options": [
+        {
+          "text": "Neptune",
+          "correct": false
+        },
+        {
+          "text": "Jupiter",
+          "correct": true
+        },
+        {
+          "text": "Saturn",
+          "correct": false
+        },
+        {
+          "text": "Venus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is a light-year a measure of?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A light-year is the distance light travels in one year.",
+      "options": [
+        {
+          "text": "Time",
+          "correct": false
+        },
+        {
+          "text": "Brightness",
+          "correct": false
+        },
+        {
+          "text": "Distance",
+          "correct": true
+        },
+        {
+          "text": "Temperature",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which was the first human to travel into space?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Yuri Gagarin became the first human in space in 1961.",
+      "options": [
+        {
+          "text": "Neil Armstrong",
+          "correct": false
+        },
+        {
+          "text": "Yuri Gagarin",
+          "correct": true
+        },
+        {
+          "text": "Buzz Aldrin",
+          "correct": false
+        },
+        {
+          "text": "John Glenn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What process allows a star like the Sun to release energy?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "In the Sun's core, nuclear fusion combines hydrogen nuclei to form helium and releases energy.",
+      "options": [
+        {
+          "text": "Nuclear fusion",
+          "correct": true
+        },
+        {
+          "text": "Friction",
+          "correct": false
+        },
+        {
+          "text": "Chemical burning",
+          "correct": false
+        },
+        {
+          "text": "Reflection",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which planet is the hottest on average in our Solar System?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Venus is hottest on average because its dense atmosphere traps heat through an intense greenhouse effect.",
+      "options": [
+        {
+          "text": "Mercury",
+          "correct": false
+        },
+        {
+          "text": "Mars",
+          "correct": false
+        },
+        {
+          "text": "Venus",
+          "correct": true
+        },
+        {
+          "text": "Jupiter",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the boundary around a black hole beyond which light cannot escape called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Event Horizon is the boundary beyond which nothing, including light, can escape a black hole.",
+      "options": [
+        {
+          "text": "The core line",
+          "correct": false
+        },
+        {
+          "text": "Event horizon",
+          "correct": true
+        },
+        {
+          "text": "Solar boundary",
+          "correct": false
+        },
+        {
+          "text": "Photon ring",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which space telescope launched in 2021 observes the universe mainly in infrared light?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The James Webb Space Telescope launched in 2021 and is designed primarily for infrared observations.",
+      "options": [
+        {
+          "text": "Hubble Space Telescope",
+          "correct": false
+        },
+        {
+          "text": "James Webb Space Telescope",
+          "correct": true
+        },
+        {
+          "text": "Kepler Telescope",
+          "correct": false
+        },
+        {
+          "text": "Chandra X-ray Observatory",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What causes the phases of the Moon?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "As the Moon orbits Earth, we see different portions of the Moon's sunlit half.",
+      "options": [
+        {
+          "text": "Earth's shadow always covering part of it",
+          "correct": false
+        },
+        {
+          "text": "Changes in the Moon's shape",
+          "correct": false
+        },
+        {
+          "text": "Different portions of its sunlit half are visible from Earth",
+          "correct": true
+        },
+        {
+          "text": "Clouds blocking the Moon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the region beyond Neptune containing many icy bodies, including Pluto, called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Kuiper Belt is a region beyond Neptune containing many icy objects, including Pluto.",
+      "options": [
+        {
+          "text": "Asteroid Belt",
+          "correct": false
+        },
+        {
+          "text": "Kuiper Belt",
+          "correct": true
+        },
+        {
+          "text": "Oort Core",
+          "correct": false
+        },
+        {
+          "text": "Solar Ring",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Sun is a planet.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Sun is a star, not a planet.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth.",
+      "type": "TRUE_FALSE",
+      "explanation": "Sunlight takes about 8 minutes and 20 seconds to travel the average distance to Earth.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "There is no gravity anywhere in space.",
+      "type": "TRUE_FALSE",
+      "explanation": "Gravity exists throughout space and keeps planets, stars, and galaxies together.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Mercury is hotter on average than Venus.",
+      "type": "TRUE_FALSE",
+      "explanation": "Venus's thick atmosphere traps heat, making it hotter on average than Mercury.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The Moon produces its own light.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Moon reflects sunlight; it does not produce its own visible light.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A black hole's gravity is so strong that light cannot escape from inside its Event Horizon.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "All stars are the same size.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Earth takes approximately 365 days to orbit the Sun.",
+      "type": "TRUE_FALSE",
+      "explanation": "Earth completes one orbit around the Sun in about 365.25 days, hence the additional day after every 4 years (Leap Year).",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Great Red Spot is a giant storm on Saturn.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Great Red Spot is a giant storm on Jupiter.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Astronauts on the International Space Station experience microgravity, which makes them appear to float.",
+      "type": "TRUE_FALSE",
+      "explanation": "The station and its crew are continuously falling around Earth, creating the sensation of weightlessness. It is often confused for having 'No Gravity' in space.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
