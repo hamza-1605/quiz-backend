@@ -7,12 +7,15 @@ import java.util.Set;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.hscodeworks.quiz_backend.common.exception.BadRequestException;
 import com.hscodeworks.quiz_backend.common.exception.ResourceNotFoundException;
 import com.hscodeworks.quiz_backend.features.category.Category;
 import com.hscodeworks.quiz_backend.features.category.CategoryRepository;
 import com.hscodeworks.quiz_backend.features.content.ContentVersionService;
+import com.hscodeworks.quiz_backend.features.image.ImageStorageService;
+import com.hscodeworks.quiz_backend.features.image.StoredImage;
 import com.hscodeworks.quiz_backend.features.question.dto.OptionRequest;
 import com.hscodeworks.quiz_backend.features.question.dto.QuestionRequest;
 import com.hscodeworks.quiz_backend.features.question.dto.QuestionResponse;
@@ -26,6 +29,7 @@ public class QuestionService {
     private final QuestionRepository questionRepository;
     private final CategoryRepository categoryRepository;
     private final ContentVersionService contentVersionService;
+    private final ImageStorageService imageStorageService ;
 
     
     @Transactional(readOnly = true)
@@ -77,6 +81,7 @@ public class QuestionService {
     @Transactional
     public void delete(Long id) {
         Question question = findOrThrow(id);
+        imageStorageService.deleteAfterCommit(question.getImagePublicId());
         questionRepository.delete(question);
         contentVersionService.incrementVersion();
     }
@@ -137,5 +142,36 @@ public class QuestionService {
 
     private static String blankToNull(String value) {
         return (value == null || value.isBlank()) ? null : value.trim();
+    }
+
+
+
+    // ------------------------------------ Image Handlers ------------------------------------
+    @Transactional
+    public QuestionResponse replaceImage(Long id, MultipartFile file) {
+        Question question = findOrThrow(id);
+
+        StoredImage newImage = imageStorageService.upload(file);
+        imageStorageService.deleteIfRolledBack( newImage.publicId() );
+        imageStorageService.deleteAfterCommit( question.getImagePublicId() );
+
+        question.setImageUrl(newImage.url());
+        question.setImagePublicId(newImage.publicId());
+
+        contentVersionService.incrementVersion();
+        return QuestionResponse.from(question);
+    }
+
+    @Transactional
+    public void removeImage(Long id) {
+        Question question = findOrThrow(id);
+        if (question.getImageUrl() == null) return;
+
+        imageStorageService.deleteAfterCommit(question.getImagePublicId());
+        
+        question.setImageUrl(null);
+        question.setImagePublicId(null);
+
+        contentVersionService.incrementVersion();
     }
 }

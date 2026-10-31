@@ -5,10 +5,13 @@ import java.util.List;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.hscodeworks.quiz_backend.features.category.dto.CategoryRequest;
 import com.hscodeworks.quiz_backend.features.category.dto.CategoryResponse;
 import com.hscodeworks.quiz_backend.features.content.ContentVersionService;
+import com.hscodeworks.quiz_backend.features.image.ImageStorageService;
+import com.hscodeworks.quiz_backend.features.image.StoredImage;
 import com.hscodeworks.quiz_backend.features.question.QuestionRepository;
 import com.hscodeworks.quiz_backend.common.exception.ConflictException;
 import com.hscodeworks.quiz_backend.common.exception.ResourceNotFoundException;
@@ -22,6 +25,7 @@ public class CategoryService {
     private final CategoryRepository categoryRepository;
     private final ContentVersionService contentVersionService;
     private final QuestionRepository questionRepository;
+    private final ImageStorageService imageStorageService;
 
 
     @Transactional(readOnly = true)
@@ -74,6 +78,7 @@ public class CategoryService {
         if ( questionRepository.existsByCategoryId(id) ) {
             throw new ConflictException( "Category '" + category.getName() + "' still has questions. Delete them first." );
         }
+        imageStorageService.deleteAfterCommit(category.getImagePublicId());
         categoryRepository.delete(category);
         contentVersionService.incrementVersion();
     }
@@ -84,4 +89,35 @@ public class CategoryService {
                 .orElseThrow(() -> new ResourceNotFoundException("Category of ID #" + id + " not found"));
     }
 
+
+
+    // ------------------------ Image handlers ------------------------
+    @Transactional
+    public CategoryResponse replaceImage(Long id, MultipartFile file) {
+        Category category = findOrThrow(id);
+
+        StoredImage newImage = imageStorageService.upload(file);
+        imageStorageService.deleteIfRolledBack( newImage.publicId() );
+        imageStorageService.deleteAfterCommit( category.getImagePublicId() );
+
+        category.setImageUrl( newImage.url() );
+        category.setImagePublicId( newImage.publicId() );
+
+        contentVersionService.incrementVersion();
+        return CategoryResponse.from(category);
+    }
+
+
+    @Transactional
+    public void removeImage(Long id) {
+        Category category = findOrThrow(id);
+        if (category.getImageUrl() == null) return;
+
+        imageStorageService.deleteAfterCommit( category.getImagePublicId() );
+        
+        category.setImageUrl(null);
+        category.setImagePublicId(null);
+
+        contentVersionService.incrementVersion();
+    }
 }
