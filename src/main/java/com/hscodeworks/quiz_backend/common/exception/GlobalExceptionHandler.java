@@ -39,6 +39,14 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return ProblemDetail.forStatusAndDetail( HttpStatus.BAD_REQUEST, ex.getMessage() );
     }
 
+    @ExceptionHandler(ImageStorageException.class)
+    public ProblemDetail handleImageStorage(ImageStorageException ex) {
+        return ProblemDetail.forStatusAndDetail(
+            HttpStatus.BAD_GATEWAY,
+            "The image storage service is unavailable or rejected the upload. Please try again later."
+        );
+    }
+
 
     // --------------------------- Database Safety Net ---------------------------
 
