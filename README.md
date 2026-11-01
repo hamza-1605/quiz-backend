@@ -25,6 +25,7 @@ The mobile client is built with Flutter and plays entirely from a local database
 | Migrations | Flyway |
 | Image storage | Cloudinary |
 | Build | Maven |
+| Testing | JUnit 5, Mockito, AssertJ, Spring MockMvc, Testcontainers |
 | Boilerplate reduction | Lombok |
 
 ## Getting started
@@ -34,6 +35,7 @@ The mobile client is built with Flutter and plays entirely from a local database
 - JDK 21
 - PostgreSQL, with an empty database named `quiz_db`
 - A free [Cloudinary](https://cloudinary.com) account (only needed for image upload)
+- Docker (only needed to run the integration tests)
 
 ### 1. Create the database
 
@@ -82,6 +84,42 @@ Run with `SPRING_PROFILES_ACTIVE=prod` to use `application-prod.properties`:
 | `APP_SEED_ENABLED` | Set to `true` for the very first deploy to load the seed files, then switch back off |
 
 In the production profile, seeding is off by default and stack traces and internal error messages are never included in responses.
+
+## Testing
+
+```bash
+./mvnw test
+```
+
+(On Windows use `.\mvnw.cmd test`.) The suite has two layers:
+
+**Unit tests** run in seconds with no external services. They use mocked repositories to check the business rules in isolation:
+
+- option validation (right number of options for the type, exactly one correct answer, no duplicates)
+- the content version is bumped exactly once on a successful write and never on a rejected one
+- a category cannot be deleted while it still has questions
+- replaced or removed images are scheduled for cleanup
+- the API key interceptor lets reads through and rejects every write without a valid key, including when no key is configured
+
+**Integration tests** start the whole application against a throwaway PostgreSQL container (Testcontainers), so **Docker must be running**. Your own database is never touched. They send real HTTP requests through MockMvc and check:
+
+- the real Flyway migration and Hibernate schema validation
+- create, update and delete for categories and questions, including the database rules (option rows are removed when a question is updated or deleted, and a category with questions cannot be deleted)
+- the content version in the database, which goes up only on successful writes
+- the sync endpoint, which returns the version together with all categories and questions
+- the API key check, including that rejected image uploads never reach the image service
+- the error format for validation errors, malformed JSON, unknown URLs, wrong methods and unsupported content types
+
+Cloudinary is replaced by a mock in the tests, so no real uploads happen.
+
+The first run downloads the PostgreSQL Docker image and is slow. Later runs are much faster.
+
+Run one group at a time:
+
+```bash
+./mvnw test -Dtest="*IntegrationTest"
+./mvnw test -Dtest="*ServiceTest,ApiKeyInterceptorTest"
+```
 
 ## Seeding content
 
@@ -313,6 +351,12 @@ src/main/resources/
 ├── application-prod.properties
 ├── db/migration/        Flyway migrations
 └── seed/                JSON seed files, one per category
+
+src/test/java/com/hscodeworks/quiz_backend/
+├── TestcontainersConfiguration.java   Disposable PostgreSQL for the tests
+├── common/security/                   API key interceptor tests
+├── features/                          Service-level unit tests
+└── integration/                       End-to-end API tests (MockMvc + Testcontainers)
 ```
 
 ## Status
@@ -322,6 +366,6 @@ src/main/resources/
 - [x] Seed loader
 - [x] Image upload with Cloudinary
 - [x] API key protection and production profile
-- [ ] Automated tests
+- [x] Automated tests (unit and integration)
 - [ ] Deployment
 - [ ] Flutter client
