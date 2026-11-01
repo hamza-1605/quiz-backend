@@ -7,7 +7,7 @@ import com.hscodeworks.quiz_backend.features.question.dto.QuestionResponse;
 
 public record SyncResponse(
     long version,
-    List<CategoryResponse> category,
-    List<QuestionResponse> question
+    List<CategoryResponse> categories,
+    List<QuestionResponse> questions
 ) {
 }
