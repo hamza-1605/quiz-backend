@@ -22,7 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public class ImageStorageService {
 
-    private static final long MAX_SIZE_BYTES = 5L * 1024 * 1024;
+    private static final long MAX_SIZE_BYTES = 4L * 1024 * 1024;
     private static final Set<String> ALLOWED_TYPES = Set.of("image/jpeg", "image/png", "image/webp");
 
     private final Cloudinary cloudinary;
@@ -52,7 +52,7 @@ public class ImageStorageService {
             throw new BadRequestException("An image file is required");
         }
         if (file.getSize() > MAX_SIZE_BYTES) {
-            throw new BadRequestException("Image must be at most 5 MB");
+            throw new BadRequestException("Image must be at most 4 MB");
         }
         if (!ALLOWED_TYPES.contains(file.getContentType())) {
             throw new BadRequestException("Only JPEG, PNG and WebP images are allowed");
