@@ -151,7 +151,7 @@ public class QuestionService {
     public QuestionResponse replaceImage(Long id, MultipartFile file) {
         Question question = findOrThrow(id);
 
-        StoredImage newImage = imageStorageService.upload( file, "quiz-app/questions/" + question.getCategory().getName().toLowerCase() );
+        StoredImage newImage = imageStorageService.upload( file, "quiz-app/questions/" + folderFor(question.getCategory().getName()) );
         imageStorageService.deleteIfRolledBack( newImage.publicId() );
         imageStorageService.deleteAfterCommit( question.getImagePublicId() );
 
@@ -173,5 +173,13 @@ public class QuestionService {
         question.setImagePublicId(null);
 
         contentVersionService.incrementVersion();
+    }
+
+
+    private static String folderFor(String categoryName) {
+        String slug = categoryName.toLowerCase(Locale.ROOT)
+                .replaceAll("[^a-z0-9]+", "-")
+                .replaceAll("^-|-$", "");
+        return "quiz-app/questions/" + slug;
     }
 }
