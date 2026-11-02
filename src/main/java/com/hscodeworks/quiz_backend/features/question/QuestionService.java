@@ -151,7 +151,7 @@ public class QuestionService {
     public QuestionResponse replaceImage(Long id, MultipartFile file) {
         Question question = findOrThrow(id);
 
-        StoredImage newImage = imageStorageService.upload(file);
+        StoredImage newImage = imageStorageService.upload( file, "quiz-app/questions/" + question.getCategory().getName().toLowerCase() );
         imageStorageService.deleteIfRolledBack( newImage.publicId() );
         imageStorageService.deleteAfterCommit( question.getImagePublicId() );
 

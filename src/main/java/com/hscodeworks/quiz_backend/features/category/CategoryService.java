@@ -95,8 +95,8 @@ public class CategoryService {
     @Transactional
     public CategoryResponse replaceImage(Long id, MultipartFile file) {
         Category category = findOrThrow(id);
-
-        StoredImage newImage = imageStorageService.upload(file);
+        
+        StoredImage newImage = imageStorageService.upload( file, "quiz-app/categories/" );
         imageStorageService.deleteIfRolledBack( newImage.publicId() );
         imageStorageService.deleteAfterCommit( category.getImagePublicId() );
 

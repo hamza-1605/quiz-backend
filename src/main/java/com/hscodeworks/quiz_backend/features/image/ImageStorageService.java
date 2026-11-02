@@ -27,13 +27,13 @@ public class ImageStorageService {
 
     private final Cloudinary cloudinary;
 
-    public StoredImage upload(MultipartFile file) {
+    public StoredImage upload(MultipartFile file, String folder) {
         validate(file);
         try {
             Map<?, ?> result = cloudinary.uploader().upload(
-                                    file.getBytes(),
-                                    ObjectUtils.asMap("resource_type", "image")
-                                );
+                file.getBytes(),
+                ObjectUtils.asMap("resource_type", "image", "folder", folder)
+            );
                                             
             return new StoredImage(
                 (String) result.get("secure_url"), 

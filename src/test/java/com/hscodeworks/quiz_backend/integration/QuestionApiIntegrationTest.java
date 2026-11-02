@@ -2,6 +2,7 @@ package com.hscodeworks.quiz_backend.integration;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.when;
@@ -13,6 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import org.junit.jupiter.api.Test;
 import org.springframework.mock.web.MockMultipartFile;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.hscodeworks.quiz_backend.features.category.Category;
 import com.hscodeworks.quiz_backend.features.image.StoredImage;
@@ -114,7 +116,7 @@ class QuestionApiIntegrationTest extends AbstractIntegrationTest {
     void uploadingAndReplacingAnImageSchedulesCleanupOfTheOldOne() throws Exception {
         Category category = saveCategory("Space");
         QuestionResponse question = saveQuestion(category);
-        when(imageStorageService.upload(any()))
+        when(imageStorageService.upload( any(MultipartFile.class), anyString() ))
                 .thenReturn(new StoredImage("https://img.test/one.png", "public-1"))
                 .thenReturn(new StoredImage("https://img.test/two.png", "public-2"));
         long before = currentVersion();
@@ -137,7 +139,7 @@ class QuestionApiIntegrationTest extends AbstractIntegrationTest {
     void removingAnImageClearsItAndSchedulesCleanup() throws Exception {
         Category category = saveCategory("Space");
         QuestionResponse question = saveQuestion(category);
-        when(imageStorageService.upload(any())).thenReturn(new StoredImage("https://img.test/one.png", "public-1"));
+        when(imageStorageService.upload(any(MultipartFile.class), anyString())).thenReturn(new StoredImage("https://img.test/one.png", "public-1"));
         String url = "/api/questions/" + question.id() + "/image";
         uploadImage(url).andExpect(status().isOk());
 
