@@ -10,7 +10,8 @@ The mobile client is built with Flutter and plays entirely from a local database
 - Questions in two types: **true/false** (2 options) or **multiple choice** (4 options), each with an optional explanation and an optional image
 - **Content versioning**: a single global version number that increases on every successful change, so clients only re-download when something changed
 - **Full sync endpoint** returning a consistent snapshot of the version, all categories and all questions with their options
-- **Image upload** to Cloudinary, with automatic cleanup of replaced or orphaned images
+- **Image upload** to Cloudinary, organised into folders (`quiz-app/categories` and `quiz-app/questions/<category>`), with automatic cleanup of replaced or orphaned images
+- **Health endpoint** (`GET /health`) that touches no database, for hosting platforms and uptime checks
 - **JSON seed loader** to bulk-load categories and questions from files
 - **API key protection** for every write operation; reads stay public
 - Consistent error responses in the standard `ProblemDetail` (RFC 9457) format
@@ -24,6 +25,7 @@ The mobile client is built with Flutter and plays entirely from a local database
 | Database | PostgreSQL (developed against 18) |
 | Migrations | Flyway |
 | Image storage | Cloudinary |
+| Hosting | Vercel (container runtime), Neon PostgreSQL |
 | Build | Maven |
 | Testing | JUnit 5, Mockito, AssertJ, Spring MockMvc, Testcontainers |
 | Boilerplate reduction | Lombok |
@@ -160,6 +162,48 @@ How the loader behaves:
 - Editing a file whose category is already loaded has no effect. Use the API for corrections.
 - Images are not part of seed files. Attach them through the image endpoints.
 
+## Deployment
+
+The API is deployed on **Vercel's container runtime** (Hobby plan, currently in beta), with **Neon** as the PostgreSQL database and **Cloudinary** for images. Vercel builds the root `Dockerfile` (selected by `vercel.json`), so there is no image to build or upload by hand.
+
+Live API: <https://quiz-backend-six-alpha.vercel.app> (reads are public, writes need the API key). Try `/health` and `/api/content/version`.
+
+### How it was set up
+
+1. **Database.** Create a Neon project and copy the **direct** connection string (not the pooled one, whose hostname contains `-pooler`). Turn it into three variables:
+   - `DB_URL`: `jdbc:postgresql://<neon-host>/<database>?sslmode=require` (with `jdbc:` in front and no user or password in it)
+   - `DB_USERNAME` and `DB_PASSWORD`
+2. **Project.** Import the GitHub repository into Vercel. If the repository root is a parent folder, set the **Root Directory** to the folder that contains `pom.xml` and the `Dockerfile`.
+3. **Environment variables** (set before the first deploy):
+
+   | Variable | Value |
+   |---|---|
+   | `PORT` | `8080` (the container runtime listens on port 80 unless told otherwise) |
+   | `SPRING_PROFILES_ACTIVE` | `prod` |
+   | `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` | from Neon |
+   | `APP_API_KEY` | a new, strong key used only in production |
+   | `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET` | from Cloudinary |
+   | `APP_SEED_ENABLED` | `true` for the very first deploy only |
+
+4. **After the first successful start**, set `APP_SEED_ENABLED` to `false` and redeploy. Environment variable changes only apply to new deployments.
+
+### Things to know
+
+- **Cold starts.** Idle functions scale down after about five minutes, so the first request afterwards starts the Spring Boot container from scratch and is slow. The mobile client is offline-first and only syncs in the background, so users do not wait on it.
+- **Request size.** Vercel functions accept request bodies up to 4.5 MB, so image uploads are limited to 4 MB.
+- **Neon scale to zero.** The free database suspends after a few minutes of inactivity and wakes on the next connection. The production profile keeps the connection pool small and short-lived so stale connections are not reused.
+- **Troubleshooting `Endpoint ID is not specified`.** If startup fails with this Neon error, the connection was made without the SNI information Neon uses for routing. Add the endpoint option to `DB_URL`: `...?sslmode=require&options=endpoint%3D<endpoint-id>`, where the endpoint ID is the first part of the Neon hostname (for example `ep-cool-darkness-123456`).
+- **Test the container locally before pushing.** Build the image and run it with Render-like limits against a throwaway database:
+
+  ```bash
+  docker run -d --name quiz-pg -e POSTGRES_PASSWORD=pw -e POSTGRES_DB=quiz_db -p 5433:5432 postgres:18-alpine
+  docker build -t quiz-backend .
+  docker run --rm -p 8080:8080 --memory=1g -e PORT=8080 -e SPRING_PROFILES_ACTIVE=prod \
+    -e DB_URL=jdbc:postgresql://host.docker.internal:5433/quiz_db \
+    -e DB_USERNAME=postgres -e DB_PASSWORD=pw \
+    -e APP_API_KEY=local-test-key -e APP_SEED_ENABLED=true quiz-backend
+  ```
+
 ## API reference
 
 All request and response bodies are JSON unless noted. **Write operations** (`POST`, `PUT`, `DELETE`) require the header `X-API-Key: <your key>`. `GET` requests need no key.
@@ -195,6 +239,12 @@ Sync response shape:
   ]
 }
 ```
+
+### Health
+
+| Method | Path | Description |
+|---|---|---|
+| `GET` | `/health` | Returns `{"status": "UP"}`. Public, outside `/api`, and it never touches the database, so uptime checks do not wake a sleeping database |
 
 ### Categories
 
@@ -254,7 +304,9 @@ Rules enforced by the API:
 
 ### Images
 
-Images are uploaded with `multipart/form-data` using a part named `file`. Allowed types are JPEG, PNG and WebP, up to 5 MB. Uploading to an item that already has an image replaces it, and the old image is deleted from Cloudinary only after the database change commits.
+Images are uploaded with `multipart/form-data` using a part named `file`. Allowed types are JPEG, PNG and WebP, up to 4 MB (the hosting platform rejects request bodies above 4.5 MB). Uploading to an item that already has an image replaces it, and the old image is deleted from Cloudinary only after the database change commits.
+
+In Cloudinary, category images are stored under `quiz-app/categories` and question images under `quiz-app/questions/<category name>`.
 
 ### Errors
 
@@ -339,7 +391,8 @@ src/main/java/com/hscodeworks/quiz_backend/
 ├── common/
 │   ├── config/          Cloudinary client, web (interceptor) configuration
 │   ├── exception/       Custom exceptions and the global exception handler
-│   └── security/        API key interceptor
+│   ├── security/        API key interceptor
+│   └── web/             Health endpoint
 └── features/
     ├── category/        Entity, repository, service, controller, DTOs
     ├── question/        Questions and options (same layers)
@@ -359,6 +412,14 @@ src/test/java/com/hscodeworks/quiz_backend/
 └── integration/                       End-to-end API tests (MockMvc + Testcontainers)
 ```
 
+Files at the project root used for deployment:
+
+```
+Dockerfile        Multi-stage build (JDK to build, small JRE to run)
+.dockerignore     Keeps build output, git data and local IDE settings out of the image
+vercel.json       Tells Vercel to build the Dockerfile
+```
+
 ## Status
 
 - [x] Categories and questions with options (CRUD)
@@ -367,5 +428,5 @@ src/test/java/com/hscodeworks/quiz_backend/
 - [x] Image upload with Cloudinary
 - [x] API key protection and production profile
 - [x] Automated tests (unit and integration)
-- [ ] Deployment
-- [ ] Flutter client
+- [x] Deployment (Vercel container runtime + Neon)
+- [x] Flutter client
