@@ -1,0 +1,786 @@
+{
+  "category": {
+    "name": "Seerat",
+    "color": "#27AE60"
+  },
+  "questions": [
+    {
+      "questionText": "In which city was Prophet Muhammad born?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Prophet was born in Makkah.",
+      "options": [
+        {
+          "text": "Madinah",
+          "correct": false
+        },
+        {
+          "text": "Makkah",
+          "correct": true
+        },
+        {
+          "text": "Ta'if",
+          "correct": false
+        },
+        {
+          "text": "Jerusalem",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "To which tribe did Prophet Muhammad belong?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "He belonged to Quraysh, specifically Banu Hashim.",
+      "options": [
+        {
+          "text": "Thaqif",
+          "correct": false
+        },
+        {
+          "text": "Aws",
+          "correct": false
+        },
+        {
+          "text": "Quraysh",
+          "correct": true
+        },
+        {
+          "text": "Khazraj",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What was the name of the Prophet's father?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "His father was Abdullah ibn Abdul Muttalib.",
+      "options": [
+        {
+          "text": "Abu Talib",
+          "correct": false
+        },
+        {
+          "text": "Abdullah",
+          "correct": true
+        },
+        {
+          "text": "Abdul Muttalib",
+          "correct": false
+        },
+        {
+          "text": "Hamzah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What was the name of the Prophet's mother?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "His mother was Aminah bint Wahb.",
+      "options": [
+        {
+          "text": "Aminah bint Wahb",
+          "correct": true
+        },
+        {
+          "text": "Maryam bint Imran",
+          "correct": false
+        },
+        {
+          "text": "Safiyyah bint Abdul Muttalib",
+          "correct": false
+        },
+        {
+          "text": "Fatimah bint Asad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who cared for him after his mother passed away?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "His grandfather Abdul Muttalib cared for him after his mother's death.",
+      "options": [
+        {
+          "text": "Abu Bakr",
+          "correct": false
+        },
+        {
+          "text": "Abdul Muttalib",
+          "correct": true
+        },
+        {
+          "text": "Abu Lahab",
+          "correct": false
+        },
+        {
+          "text": "Abbas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who became his guardian after his grandfather died?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "His uncle Abu Talib became his guardian.",
+      "options": [
+        {
+          "text": "Hamzah",
+          "correct": false
+        },
+        {
+          "text": "Abu Talib",
+          "correct": true
+        },
+        {
+          "text": "Abu Sufyan",
+          "correct": false
+        },
+        {
+          "text": "Abu Bakr",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who was the first wife of Prophet Muhammad?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Khadijah bint Khuwaylid was his first wife.",
+      "options": [
+        {
+          "text": "Aishah",
+          "correct": false
+        },
+        {
+          "text": "Hafsah",
+          "correct": false
+        },
+        {
+          "text": "Khadijah",
+          "correct": true
+        },
+        {
+          "text": "Sawda",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How old was Prophet Muhammad when revelation began?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Sahih al-Bukhari reports that revelation began when he was forty.",
+      "options": [
+        {
+          "text": "25",
+          "correct": false
+        },
+        {
+          "text": "30",
+          "correct": false
+        },
+        {
+          "text": "40",
+          "correct": true
+        },
+        {
+          "text": "45",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Where was the Prophet when he received the first revelation?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The first revelation came in the Cave of Hira.",
+      "options": [
+        {
+          "text": "Cave of Thawr",
+          "correct": false
+        },
+        {
+          "text": "Cave of Hira",
+          "correct": true
+        },
+        {
+          "text": "Mount Uhud",
+          "correct": false
+        },
+        {
+          "text": "Ka'bah courtyard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who first comforted and supported him after the first revelation?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Khadijah comforted him and affirmed her support.",
+      "options": [
+        {
+          "text": "Abu Bakr",
+          "correct": false
+        },
+        {
+          "text": "Ali ibn Abi Talib",
+          "correct": false
+        },
+        {
+          "text": "Khadijah",
+          "correct": true
+        },
+        {
+          "text": "Zayd ibn Harithah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who accompanied the Prophet during the Hijrah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Abu Bakr accompanied him during the migration.",
+      "options": [
+        {
+          "text": "Umar",
+          "correct": false
+        },
+        {
+          "text": "Abu Bakr",
+          "correct": true
+        },
+        {
+          "text": "Ali",
+          "correct": false
+        },
+        {
+          "text": "Uthman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who stayed behind in Mecca, sleeping in the Prophet's bed to distract the assassins before following later?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Prophet asked Ali to lie in his bed, to deceive the Quraysh assassins who surrounded his house in Makkah.",
+      "options": [
+        {
+          "text": "Umar",
+          "correct": false
+        },
+        {
+          "text": "Abu Bakr",
+          "correct": true
+        },
+        {
+          "text": "Ali",
+          "correct": false
+        },
+        {
+          "text": "Uthman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "In which cave did they shelter during the Hijrah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "They sheltered in the Cave of Thawr.",
+      "options": [
+        {
+          "text": "Hira",
+          "correct": false
+        },
+        {
+          "text": "Thawr",
+          "correct": true
+        },
+        {
+          "text": "Uhud",
+          "correct": false
+        },
+        {
+          "text": "Safaa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Where did the Prophet migrate from Makkah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "He migrated to Madinah, then known as Yathrib.",
+      "options": [
+        {
+          "text": "Ta'if",
+          "correct": false
+        },
+        {
+          "text": "Abyssinia",
+          "correct": false
+        },
+        {
+          "text": "Madinah",
+          "correct": true
+        },
+        {
+          "text": "Yemen",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What was the first major battle between the Muslims and Quraysh?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Battle of Badr took place in 2 AH.",
+      "options": [
+        {
+          "text": "Uhud",
+          "correct": false
+        },
+        {
+          "text": "Khandaq",
+          "correct": false
+        },
+        {
+          "text": "Badr",
+          "correct": true
+        },
+        {
+          "text": "Hunayn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "After how many years did the Prophet die, after the Hijrah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "He died 10 years after the Hijrah. He stayed those 10 years in Madinah.",
+      "options": [
+        {
+          "text": "13",
+          "correct": false
+        },
+        {
+          "text": "10",
+          "correct": true
+        },
+        {
+          "text": "15",
+          "correct": false
+        },
+        {
+          "text": "17",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who became the first caliph after the Prophet?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Abu Bakr was the first caliph.",
+      "options": [
+        {
+          "text": "Umar ibn Khattab",
+          "correct": false
+        },
+        {
+          "text": "Ali ibn Abi Talib",
+          "correct": false
+        },
+        {
+          "text": "Abu Bakr as-Siddiq",
+          "correct": true
+        },
+        {
+          "text": "Uthman ibn Affan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which companion married two of Prophet's daughters?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Uthman ibn Affan married two of the Prophet's daughters. He first married Ruqayyah bint Muhammad; and after her death, he married Umm Kulthum bint Muhammad",
+      "options": [
+        {
+          "text": "Uthman ibn Affan",
+          "correct": true
+        },
+        {
+          "text": "Ali ibn Abi Talib",
+          "correct": false
+        },
+        {
+          "text": "Talhah ibn Ubaydillah",
+          "correct": false
+        },
+        {
+          "text": "Abdur-Rahman ibn Awf",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which companion was the Prophet's cousin and son-in-law?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Ali was the Prophet's cousin and married his daughter Fatimah.",
+      "options": [
+        {
+          "text": "Bilal",
+          "correct": false
+        },
+        {
+          "text": "Ali ibn Abi Talib",
+          "correct": true
+        },
+        {
+          "text": "Salman al-Farsi",
+          "correct": false
+        },
+        {
+          "text": "Abu Hurairah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which treaty was agreed between Muslims and Quraysh in 6 AH?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Treaty of Hudaybiyyah was concluded in 6 AH.",
+      "options": [
+        {
+          "text": "Hudaybiyyah",
+          "correct": true
+        },
+        {
+          "text": "Aqabah",
+          "correct": false
+        },
+        {
+          "text": "Ta'if",
+          "correct": false
+        },
+        {
+          "text": "Badr",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How old was Prophet Muhammad when he passed away, according to authentic narrations?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Sahih al-Bukhari and Sahih Muslim report that he died at age 63.",
+      "options": [
+        {
+          "text": "60",
+          "correct": false
+        },
+        {
+          "text": "61",
+          "correct": false
+        },
+        {
+          "text": "63",
+          "correct": true
+        },
+        {
+          "text": "65",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many wives did Prophet Muhammad have?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Muhammad had a total of 11 wives.",
+      "options": [
+        {
+          "text": "4",
+          "correct": false
+        },
+        {
+          "text": "7",
+          "correct": false
+        },
+        {
+          "text": "11",
+          "correct": true
+        },
+        {
+          "text": "9",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "For how many years did Prophet Muhammad stay in Makkah after the first revelation?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Prophet spent thirteen years in Makkah after the first revelation and then he had to move to Madinah.",
+      "options": [
+        {
+          "text": "13",
+          "correct": true
+        },
+        {
+          "text": "17",
+          "correct": false
+        },
+        {
+          "text": "21",
+          "correct": false
+        },
+        {
+          "text": "19",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What were the names of the sons of Prophet Muhammad?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "He had 3 sons: Qasim, Abdullah & Ibrahim. 1st two were born in Makkah, and Ibrahim was born in Madinah",
+      "options": [
+        {
+          "text": "Qasim, Abdullah & Ibrahim",
+          "correct": true
+        },
+        {
+          "text": "Qasim, Abdullah & Ismaail",
+          "correct": false
+        },
+        {
+          "text": "Qasim, Abdur-Rahman & Ismaail",
+          "correct": false
+        },
+        {
+          "text": "He had no sons.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who was the first daughter of Prophet Muhammad?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Zainab was the eldest daughter meanwhile Fatimah was the youngest.",
+      "options": [
+        {
+          "text": "Zainab",
+          "correct": true
+        },
+        {
+          "text": "Ruqayya",
+          "correct": false
+        },
+        {
+          "text": "Umm Kulthum",
+          "correct": false
+        },
+        {
+          "text": "Faatima",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who was the first child of Prophet Muhammad?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Qasim was his first child and hence his kunya: Abu Al-Qasim.",
+      "options": [
+        {
+          "text": "Zainab",
+          "correct": false
+        },
+        {
+          "text": "Qasim",
+          "correct": true
+        },
+        {
+          "text": "Abdullah",
+          "correct": false
+        },
+        {
+          "text": "Ruqayya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Prophet Muhammad belonged to Quraysh.",
+      "type": "TRUE_FALSE",
+      "explanation": "He belonged to Quraysh, from Banu Hashim.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "His father was alive when he was born.",
+      "type": "TRUE_FALSE",
+      "explanation": "His father Abdullah died before his birth.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Abu Talib cared for him after his grandfather died.",
+      "type": "TRUE_FALSE",
+      "explanation": "Abu Talib became his guardian.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Khadijah رضي الله عنها was his first wife.",
+      "type": "TRUE_FALSE",
+      "explanation": "Khadijah was his first wife.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The first revelation came in the Cave of Thawr.",
+      "type": "TRUE_FALSE",
+      "explanation": "It came in the Cave of Hira; Thawr was used during the Hijrah.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Abu Bakr رضي الله عنه accompanied the Prophet during Hijrah.",
+      "type": "TRUE_FALSE",
+      "explanation": "Abu Bakr was his companion on the migration.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Battle of Badr took place before the Hijrah.",
+      "type": "TRUE_FALSE",
+      "explanation": "Badr took place in 2 AH, after the Hijrah.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The Treaty of Hudaybiyyah was concluded in 6 AH.",
+      "type": "TRUE_FALSE",
+      "explanation": "The treaty was agreed in the sixth year after Hijrah.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Prophet passed away at age 73 according to authentic narrations.",
+      "type": "TRUE_FALSE",
+      "explanation": "Authentic narrations report that he passed away at age 63.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The Prophet had no sons.",
+      "type": "TRUE_FALSE",
+      "explanation": "He had 3 sons - but by the Will of Allah, they all died very young.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The Prophet had 4 daughters.",
+      "type": "TRUE_FALSE",
+      "explanation": "He had 4 daughters - Zaynab, Ruqayyah, Umm Kulthum & Fatima.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Prophet did not marry any women, until after the death of his first wife Khadijah.",
+      "type": "TRUE_FALSE",
+      "explanation": "He only married after the death of Khadijah bint Khuwaylid.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

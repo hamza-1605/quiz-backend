@@ -1,0 +1,808 @@
+{
+  "category": {
+    "name": "Islam",
+    "color": "#8E44AD"
+  },
+  "questions": [
+    {
+      "questionText": "How many pillars of Islam are there?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Prophet described Islam as built upon five pillars.",
+      "options": [
+        {
+          "text": "Four",
+          "correct": false
+        },
+        {
+          "text": "Five",
+          "correct": true
+        },
+        {
+          "text": "Six",
+          "correct": false
+        },
+        {
+          "text": "Seven",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the first pillar of Islam?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The testimony of faith is the first pillar.",
+      "options": [
+        {
+          "text": "Salah",
+          "correct": false
+        },
+        {
+          "text": "Zakah",
+          "correct": false
+        },
+        {
+          "text": "Shahadah",
+          "correct": true
+        },
+        {
+          "text": "Hajj",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the percentage of Zakah in Islam (if applicable)?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The standard percentage of Zakah in Islam is 2.5% (one-fortieth) on most accumulated wealth, ONLY IF it is applicable on the person.",
+      "options": [
+        {
+          "text": "25%",
+          "correct": false
+        },
+        {
+          "text": "2.5%",
+          "correct": false
+        },
+        {
+          "text": "15%",
+          "correct": true
+        },
+        {
+          "text": "1.5%",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many obligatory prayers are performed daily?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The five daily prayers are Fajr, Dhuhr, Asr, Maghrib and Isha.",
+      "options": [
+        {
+          "text": "Three",
+          "correct": false
+        },
+        {
+          "text": "Four",
+          "correct": false
+        },
+        {
+          "text": "Five",
+          "correct": true
+        },
+        {
+          "text": "Six",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "In which month do Muslims fast?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Fasting Ramadan is one of the pillars of Islam.",
+      "options": [
+        {
+          "text": "Muharram",
+          "correct": false
+        },
+        {
+          "text": "Rajab",
+          "correct": false
+        },
+        {
+          "text": "Ramadan",
+          "correct": true
+        },
+        {
+          "text": "Shawwal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "In which direction do Muslims face during Salah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Muslims face the Qiblah, the direction of the Ka'bah.",
+      "options": [
+        {
+          "text": "Jerusalem",
+          "correct": false
+        },
+        {
+          "text": "The Ka'bah in Makkah",
+          "correct": true
+        },
+        {
+          "text": "Masjid an-Nabvi",
+          "correct": false
+        },
+        {
+          "text": "Masjid Al-Aqsa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is obligatory almsgiving called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Zakah is obligatory charity when its conditions are met.",
+      "options": [
+        {
+          "text": "Sadaqah",
+          "correct": false
+        },
+        {
+          "text": "Zakah",
+          "correct": true
+        },
+        {
+          "text": "Fidyah",
+          "correct": false
+        },
+        {
+          "text": "Kaffarah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which type of fasting is observed as an expiation for certain violations or offences?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Kaffarah refers to expiation required in certain circumstances, which may include fasting depending on the specific ruling.",
+      "options": [
+        { "text": "Nafl", "correct": false },
+        { "text": "Kaffarah", "correct": true },
+        { "text": "Fidyah", "correct": false },
+        { "text": "Arafah", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is Riba?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Riba refers to prohibited forms of increase or excess in certain lending and exchange transactions.",
+      "options": [
+        { "text": "Charity", "correct": false },
+        { "text": "Usury or prohibited interest", "correct": true },
+        { "text": "Inheritance", "correct": false },
+        { "text": "A voluntary prayer", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What does the term Tawakkul mean?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Tawakkul means placing one's trust and reliance upon Allah while taking appropriate lawful means.",
+      "options": [
+        { "text": "Repentance", "correct": false },
+        { "text": "Gratitude", "correct": false },
+        { "text": "Reliance upon Allah", "correct": true },
+        { "text": "Patience", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which prayer is performed when seeking guidance from Allah about a decision?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Salat al-Istikharah is a prayer through which a Muslim asks Allah for guidance in a matter.",
+      "options": [
+        { "text": "Salat al-Istisqa", "correct": false },
+        { "text": "Salat al-Istikharah", "correct": true },
+        { "text": "Salat al-Kusuf", "correct": false },
+        { "text": "Salat al-Tarawih", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which act is known as Sa'i during Hajj and Umrah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Sa'i is the walking between the hills of Safa and Marwah, traditionally seven traversals.",
+      "options": [
+        { "text": "Standing at Arafat", "correct": false },
+        { "text": "Walking between Safa and Marwah", "correct": true },
+        { "text": "Stoning the pillars", "correct": false },
+        { "text": "Circling the Ka'bah", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the name of the voluntary charity given at the end of Ramadan before Eid prayer?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Zakat al-Fitr is a prescribed charity associated with the end of Ramadan and is due before the Eid prayer according to the well-known prophetic instruction.",
+      "options": [
+        { "text": "Zakat al-Mal", "correct": false },
+        { "text": "Zakat al-Fitr", "correct": true },
+        { "text": "Kaffarah", "correct": false },
+        { "text": "Fidyah al-Hajj", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which pilgrimage is obligatory once in a lifetime for those able?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Hajj is obligatory once in a lifetime for those who are able.",
+      "options": [
+        {
+          "text": "Umrah",
+          "correct": false
+        },
+        {
+          "text": "Hajj",
+          "correct": true
+        },
+        {
+          "text": "Ziyarah",
+          "correct": false
+        },
+        {
+          "text": "I'tikaf",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the Islamic declaration of faith called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Shahadah is the testimony of faith.",
+      "options": [
+        {
+          "text": "Takbir",
+          "correct": false
+        },
+        {
+          "text": "Tasbih",
+          "correct": false
+        },
+        {
+          "text": "Shahadah",
+          "correct": true
+        },
+        {
+          "text": "Adhan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the pre-dawn meal during Ramadan called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Suhoor is eaten before dawn; Iftar breaks the fast at sunset.",
+      "options": [
+        {
+          "text": "Iftar",
+          "correct": false
+        },
+        {
+          "text": "Suhoor",
+          "correct": true
+        },
+        {
+          "text": "Walima",
+          "correct": false
+        },
+        {
+          "text": "Aqiqah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the meal at sunset to end the fast called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Iftar is the meal with which the fast is ended at sunset.",
+      "options": [
+        {
+          "text": "Suhoor",
+          "correct": false
+        },
+        {
+          "text": "Iftar",
+          "correct": true
+        },
+        {
+          "text": "Sahw",
+          "correct": false
+        },
+        {
+          "text": "Niyyah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the call announcing prayer time called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Adhan is the call to prayer.",
+      "options": [
+        {
+          "text": "Iqamah",
+          "correct": false
+        },
+        {
+          "text": "Adhan",
+          "correct": true
+        },
+        {
+          "text": "Khutbah",
+          "correct": false
+        },
+        {
+          "text": "Talbiyah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the direction faced in prayer called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Qiblah means the direction of the Ka'bah.",
+      "options": [
+        {
+          "text": "Mihrab",
+          "correct": false
+        },
+        {
+          "text": "Minbar",
+          "correct": false
+        },
+        {
+          "text": "Qiblah",
+          "correct": true
+        },
+        {
+          "text": "Maqam",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which calendar is based on lunar months?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Hijri calendar is a lunar calendar.",
+      "options": [
+        {
+          "text": "Gregorian",
+          "correct": false
+        },
+        {
+          "text": "Hijri",
+          "correct": true
+        },
+        {
+          "text": "Persian solar",
+          "correct": false
+        },
+        {
+          "text": "Julian",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which month begins the Hijri year?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Muharram is the first month of the Hijri calendar.",
+      "options": [
+        {
+          "text": "Ramadan",
+          "correct": false
+        },
+        {
+          "text": "Dhul-Hijjah",
+          "correct": false
+        },
+        {
+          "text": "Muharram",
+          "correct": true
+        },
+        {
+          "text": "Safar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "On which date of Dhul-Hijjah is the Day of Arafah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Day of Arafah is on 9 Dhul-Hijjah.",
+      "options": [
+        {
+          "text": "8th",
+          "correct": false
+        },
+        {
+          "text": "9th",
+          "correct": true
+        },
+        {
+          "text": "10th",
+          "correct": false
+        },
+        {
+          "text": "12th",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Eid begins on 10 Dhul-Hijjah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Eid al-Adha begins on the tenth of Dhul-Hijjah.",
+      "options": [
+        {
+          "text": "Eid al-Fitr",
+          "correct": false
+        },
+        {
+          "text": "Eid al-Adha",
+          "correct": true
+        },
+        {
+          "text": "Ashura",
+          "correct": false
+        },
+        {
+          "text": "None of the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the night prayer commonly performed in Ramadan called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Tarawih is the night prayer commonly performed during Ramadan.",
+      "options": [
+        {
+          "text": "Duha",
+          "correct": false
+        },
+        {
+          "text": "Tarawih",
+          "correct": true
+        },
+        {
+          "text": "Istisqa",
+          "correct": false
+        },
+        {
+          "text": "Janazah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the ritual ablution before prayer called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Wudu is the prescribed ablution for ritual purification.",
+      "options": [
+        {
+          "text": "Tawaf",
+          "correct": false
+        },
+        {
+          "text": "Wudu",
+          "correct": true
+        },
+        {
+          "text": "Sa'i",
+          "correct": false
+        },
+        {
+          "text": "I'tikaf",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the obligatory congregational prayer on Friday called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Jumu'ah is the Friday congregational prayer.",
+      "options": [
+        {
+          "text": "Eid prayer",
+          "correct": false
+        },
+        {
+          "text": "Jumu'ah",
+          "correct": true
+        },
+        {
+          "text": "Tahajjud",
+          "correct": false
+        },
+        {
+          "text": "Janazah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which angel conveyed revelation to the prophets?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Jibril عليه السلام conveyed revelation by Allah's command.",
+      "options": [
+        {
+          "text": "Mikail",
+          "correct": false
+        },
+        {
+          "text": "Jibril",
+          "correct": true
+        },
+        {
+          "text": "Israfil",
+          "correct": false
+        },
+        {
+          "text": "Malik",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Prophet is known as Adam-e-Thaani (Second Adam)?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "After the Great Flood wiped out the corrupt and disbelieving population, human civilization was completely repopulated through the descendants of Prophet Nooh.",
+      "options": [
+        {
+          "text": "Isa",
+          "correct": false
+        },
+        {
+          "text": "Nooh",
+          "correct": true
+        },
+        {
+          "text": "Musa",
+          "correct": false
+        },
+        {
+          "text": "Ibrahim",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Prophet built the Ka'aba alongside his son?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Ibrahim with his son (Ismaail) built the Ka'aba.",
+      "options": [
+        {
+          "text": "Adam",
+          "correct": false
+        },
+        {
+          "text": "Nooh",
+          "correct": false
+        },
+        {
+          "text": "Musa",
+          "correct": false
+        },
+        {
+          "text": "Ibrahim",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which prayer has no Ruku or Sujood?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Salat al-Janazah is performed standing and includes takbirs and supplication, but no bowing or prostration.",
+      "options": [
+        { "text": "Salat al-Witr", "correct": false },
+        { "text": "Salat al-Janazah", "correct": true },
+        { "text": "Salat al-Duha", "correct": false },
+        { "text": "Salat al-Tahajjud", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the name of grandfather of Prophet Yusuf?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Yusuf is the son of Prophet Ya'qoob, the grandson of Prophet Ishaaq, and the great-grandson of Prophet Ibrahim.",
+      "options": [
+        { "text": "Prophet Ismaail", "correct": false },
+        { "text": "Prophet Ibrahim", "correct": false },
+        { "text": "Prophet Ishaaq", "correct": true },
+        { "text": "Prophet Ya'qoob", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Islam has five pillars.",
+      "type": "TRUE_FALSE",
+      "explanation": "Prophet Muhammad described five pillars.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Muslims are obligated to perform six daily prayers.",
+      "type": "TRUE_FALSE",
+      "explanation": "The daily obligatory prayers are five.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Ramadan is the eighth month of the Hijri calendar.",
+      "type": "TRUE_FALSE",
+      "explanation": "Ramadan is the ninth lunar month.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The Hijri calendar is solar.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Hijri calendar is lunar.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Zakah and voluntary Sadaqah have exactly the same legal status.",
+      "type": "TRUE_FALSE",
+      "explanation": "Zakah is obligatory under its conditions; Sadaqah is generally voluntary.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Hajj is obligatory once in a lifetime for Muslims who are able.",
+      "type": "TRUE_FALSE",
+      "explanation": "Ability is a condition for the obligation of Hajj.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Day of Arafah is on 9 Dhul-Hijjah.",
+      "type": "TRUE_FALSE",
+      "explanation": "The standing at Arafah occurs on the ninth.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Eid al-Adha is celebrated on 11th Dhul-Hijjah.",
+      "type": "TRUE_FALSE",
+      "explanation": "Eid al-Adha is celebrated on 10th Dhul-Hijjah.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Eid al-Fitr is celebrated at the end of Ramadan.",
+      "type": "TRUE_FALSE",
+      "explanation": "Eid al-Fitr marks the end of Ramadan.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Wudu is an act of ritual ablution.",
+      "type": "TRUE_FALSE",
+      "explanation": "Wudu is the prescribed minor ablution.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Adhan is the sermon delivered before Friday prayer.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Adhan is the call to prayer; the sermon is the Khutbah.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Nisab is the minimum qualifying wealth threshold for Zakah.",
+      "type": "TRUE_FALSE",
+      "explanation": "Nisab is the minimum threshold, subject to the other conditions of Zakah.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Sajdah al-Sahw is performed to address certain mistakes or forgetfulness during Salah.",
+      "type": "TRUE_FALSE",
+      "explanation": "It is the prostration of forgetfulness, with details differing among schools of thought.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    }
+  ]
+}

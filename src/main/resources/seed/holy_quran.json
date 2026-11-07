@@ -1,0 +1,777 @@
+{
+  "category": {
+    "name": "Holy Quran",
+    "color": "#2E86DE"
+  },
+  "questions": [
+    {
+      "questionText": "How many Surahs are in the Holy Quran?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Quran contains 114 Surahs.",
+      "options": [
+        {
+          "text": "110",
+          "correct": false
+        },
+        {
+          "text": "112",
+          "correct": false
+        },
+        {
+          "text": "114",
+          "correct": true
+        },
+        {
+          "text": "116",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah opens the Quran?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Al-Fatihah is first in the standard arrangement.",
+      "options": [
+        {
+          "text": "Al-Baqarah",
+          "correct": false
+        },
+        {
+          "text": "Al-Fatihah",
+          "correct": true
+        },
+        {
+          "text": "Al-Ikhlas",
+          "correct": false
+        },
+        {
+          "text": "An-Nas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the longest Surah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Al-Baqarah contains 286 verses.",
+      "options": [
+        {
+          "text": "Aal-e-Imran",
+          "correct": false
+        },
+        {
+          "text": "An-Nisa",
+          "correct": false
+        },
+        {
+          "text": "Al-Baqarah",
+          "correct": true
+        },
+        {
+          "text": "Al-Ma'idah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many Surahs has the fewest number of verses?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Four Surahs have 3 verses; Al-Kawthar, Al-Ikhlas, An-Nasr & Al-Asr.",
+      "options": [
+        {
+          "text": "One",
+          "correct": false
+        },
+        {
+          "text": "Four",
+          "correct": true
+        },
+        {
+          "text": "Two",
+          "correct": false
+        },
+        {
+          "text": "Three",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many Juz are in the commonly used division?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Quran is conventionally divided into 30 Juz.",
+      "options": [
+        {
+          "text": "20",
+          "correct": false
+        },
+        {
+          "text": "25",
+          "correct": false
+        },
+        {
+          "text": "30",
+          "correct": true
+        },
+        {
+          "text": "40",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah is known as Umm al-Kitab?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Al-Fatihah is known as Umm al-Kitab, meaning The Mother of the Book.",
+      "options": [
+        {
+          "text": "Al-Fatihah",
+          "correct": true
+        },
+        {
+          "text": "Al-Baqarah",
+          "correct": false
+        },
+        {
+          "text": "Yasin",
+          "correct": false
+        },
+        {
+          "text": "Al-Mulk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah does not begin with Bismillah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "At-Tawbah is the only Surah without the basmalah at its beginning.",
+      "options": [
+        {
+          "text": "Al-Anfal",
+          "correct": false
+        },
+        {
+          "text": "At-Tawbah",
+          "correct": true
+        },
+        {
+          "text": "Yunus",
+          "correct": false
+        },
+        {
+          "text": "Hud",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Where is Ayat al-Kursi found?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Ayat al-Kursi is verse 255 of Al-Baqarah.",
+      "options": [
+        {
+          "text": "Al-Baqarah",
+          "correct": true
+        },
+        {
+          "text": "Al-Kahf",
+          "correct": false
+        },
+        {
+          "text": "Maryam",
+          "correct": false
+        },
+        {
+          "text": "Al-An'am",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the reference for Ayat al-Kursi?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Ayat al-Kursi is Al-Baqarah 2:255.",
+      "options": [
+        {
+          "text": "2:255",
+          "correct": true
+        },
+        {
+          "text": "2:265",
+          "correct": false
+        },
+        {
+          "text": "2:253",
+          "correct": false
+        },
+        {
+          "text": "2:263",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah is named after Mary, mother of Prophet Isa عليه السلام?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Surah Maryam is named after Mary.",
+      "options": [
+        {
+          "text": "Maryam",
+          "correct": true
+        },
+        {
+          "text": "An-Nisa",
+          "correct": false
+        },
+        {
+          "text": "Al-Mujadilah",
+          "correct": false
+        },
+        {
+          "text": "Al-Imran",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah means 'The Cow'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Al-Baqarah means The Cow.",
+      "options": [
+        {
+          "text": "Al-Baqarah",
+          "correct": true
+        },
+        {
+          "text": "Al-An'am",
+          "correct": false
+        },
+        {
+          "text": "An-Nahl",
+          "correct": false
+        },
+        {
+          "text": "Al-Fil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah presents the story of Prophet Yusuf in a continuous narrative?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Surah Yusuf relates the account of Prophet Yusuf.",
+      "options": [
+        {
+          "text": "Hud",
+          "correct": false
+        },
+        {
+          "text": "Yusuf",
+          "correct": true
+        },
+        {
+          "text": "Ibrahim",
+          "correct": false
+        },
+        {
+          "text": "Al-Qasas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah is named after the bee?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "An-Nahl means The Bee.",
+      "options": [
+        {
+          "text": "An-Naml",
+          "correct": false
+        },
+        {
+          "text": "Al-Ankabut",
+          "correct": false
+        },
+        {
+          "text": "An-Nahl",
+          "correct": true
+        },
+        {
+          "text": "Al-Fil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah is named after the Elephant?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Al-fil means The Elephant.",
+      "options": [
+        {
+          "text": "An-Naml",
+          "correct": false
+        },
+        {
+          "text": "Al-Ankabut",
+          "correct": false
+        },
+        {
+          "text": "An-Nahl",
+          "correct": false
+        },
+        {
+          "text": "Al-Fil",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah is named after the ant?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "An-Naml means The Ant.",
+      "options": [
+        {
+          "text": "An-Naml",
+          "correct": true
+        },
+        {
+          "text": "An-Nahl",
+          "correct": false
+        },
+        {
+          "text": "Al-Fil",
+          "correct": false
+        },
+        {
+          "text": "Al-Buruj",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Surah is named after the spider?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Al-Ankabut means The Spider.",
+      "options": [
+        {
+          "text": "Al-Ankabut",
+          "correct": true
+        },
+        {
+          "text": "An-Naml",
+          "correct": false
+        },
+        {
+          "text": "Al-Hadid",
+          "correct": false
+        },
+        {
+          "text": "Al-Jinn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Where did the first revelation come to Prophet Muhammad?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The first revelation came while he was in the Cave of Hira.",
+      "options": [
+        {
+          "text": "Cave of Thawr",
+          "correct": false
+        },
+        {
+          "text": "Cave of Hira",
+          "correct": true
+        },
+        {
+          "text": "Masjid al-Aqsa",
+          "correct": false
+        },
+        {
+          "text": "Mount Uhud",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which verses are identified as the first revelation?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The opening five verses of Surah Al-Alaq are identified in the authentic narration.",
+      "options": [
+        {
+          "text": "Al-Fatihah (whole)",
+          "correct": false
+        },
+        {
+          "text": "Al-Baqarah 1–6",
+          "correct": false
+        },
+        {
+          "text": "Al-Alaq 1–5",
+          "correct": true
+        },
+        {
+          "text": "Al-Ikhlas (whole)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which angel conveyed the Quranic revelation?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Jibril عليه السلام conveyed revelation to Prophet Muhammad .",
+      "options": [
+        {
+          "text": "Mikail",
+          "correct": false
+        },
+        {
+          "text": "Israfil",
+          "correct": false
+        },
+        {
+          "text": "Jibril",
+          "correct": true
+        },
+        {
+          "text": "Malik",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which prophet did Allah compared to Prophet Adam (عليه السلام) in terms of creation?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "In Surah Aal-e-Imran (3:59), Allah states that the example of Isa (عليه السلام) is like that of Adam (عليه السلام). Allah created Adam from dust and then said, 'Be,' and he was.",
+      "options": [
+        { "text": "Prophet Musa", "correct": false },
+        { "text": "Prophet Ibrahim", "correct": false },
+        { "text": "Prophet Isa", "correct": true },
+        { "text": "Prophet Ya'qoob", "correct": false }
+      ]
+    },
+    {
+      "questionText": "According to the Quran, which prophet was given the ability to understand the speech of birds?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Sulayman (عليه السلام) was taught the language of birds, as mentioned in Surah An-Naml (27:16).",
+      "options": [
+        { "text": "Prophet Dawud", "correct": false },
+        { "text": "Prophet Sulayman", "correct": true },
+        { "text": "Prophet Yusuf", "correct": false },
+        { "text": "Prophet Musa", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which prophet was given the ability to interpret dreams by Allah?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Yusuf (عليه السلام) was taught the interpretation of dreams, as mentioned in Surah Yusuf (12:6).",
+      "options": [
+        { "text": "Prophet Yusuf", "correct": true },
+        { "text": "Prophet Shuayb", "correct": false },
+        { "text": "Prophet Hud", "correct": false },
+        { "text": "Prophet Salih", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which Surah mentions the incident of the two sons of Adam?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The story of the two sons of Adam (Habeel and Qabeel), one of whom killed the other, is mentioned in Surah Al-Ma'idah (5:27–31).",
+      "options": [
+        { "text": "Surah Al-A'raf", "correct": false },
+        { "text": "Surah Al-Ma'idah", "correct": true },
+        { "text": "Surah Al-Anfal", "correct": false },
+        { "text": "Surah Al-Baqarah", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which prophet was swallowed by a great fish after leaving his people?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Yunus (عليه السلام) was swallowed by a fish and called upon Allah from the darkness. His supplication is mentioned in Surah Al-Anbiya (21:87).",
+      "options": [
+        { "text": "Prophet Ayyub", "correct": false },
+        { "text": "Prophet Yunus", "correct": true },
+        { "text": "Prophet Nuh", "correct": false },
+        { "text": "Prophet Hud", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which prophet was thrown into a fire by his people, but Allah made it cool and safe for him?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Ibrahim (عليه السلام) was thrown into the fire, but Allah commanded it to be cool and safe for him, as stated in Surah Al-Anbiya (21:69).",
+      "options": [
+        { "text": "Prophet Lut", "correct": false },
+        { "text": "Prophet Ibrahim", "correct": true },
+        { "text": "Prophet Ismail", "correct": false },
+        { "text": "Prophet Musa", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What did Prophet Yusuf's brothers do to him when he was young?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "His brothers threw him into a well, as described in Surah Yusuf (12:15).",
+      "options": [
+        { "text": "They abandoned him in a desert", "correct": false },
+        { "text": "They threw him into a well", "correct": true },
+        { "text": "They sold him to a king", "correct": false },
+        { "text": "They left him in a forest", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What did Prophet Musa (عليه السلام) throw down that became a snake?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "His staff turned into a clear snake by Allah's command, as described in Surah Al-A'raf (7:107).",
+      "options": [
+        { "text": "A rope", "correct": false },
+        { "text": "A staff", "correct": true },
+        { "text": "A stone", "correct": false },
+        { "text": "A piece of cloth", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which prophet was tested with severe illness and loss, then Allah restored his health and blessings?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Ayyub (عليه السلام) endured severe hardship and called upon Allah, who removed his suffering and restored his family and blessings. See Surah Al-Anbiya (21:83–84).",
+      "options": [
+        { "text": "Prophet Yaqub", "correct": false },
+        { "text": "Prophet Ayyub", "correct": true },
+        { "text": "Prophet Zakariya", "correct": false },
+        { "text": "Prophet Idris", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which Surah refers to Laylat al-Qadr?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Surah Al-Qadr describes the Night of Decree.",
+      "options": [
+        {
+          "text": "Surah Al-Qadr",
+          "correct": true
+        },
+        {
+          "text": "Surah Al-Fajr",
+          "correct": false
+        },
+        {
+          "text": "Surah Al-Layl",
+          "correct": false
+        },
+        {
+          "text": "Surah Ad-Duha",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which prophet is mentioned most frequently by name in the Quran?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Musa عليه السلام is mentioned most frequently by name.",
+      "options": [
+        {
+          "text": "Ibrahim",
+          "correct": false
+        },
+        {
+          "text": "Musa",
+          "correct": true
+        },
+        {
+          "text": "Isa",
+          "correct": false
+        },
+        {
+          "text": "Nuh",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What happened to Prophet Yaqub (عليه السلام) after he received the news of Yusuf's disappearance?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Prophet Yaqub (عليه السلام) grieved deeply and his eyes turned white from sorrow, as mentioned in Surah Yusuf (12:84).",
+      "options": [
+        { "text": "He lost his ability to walk", "correct": false },
+        { "text": "He lost his sight", "correct": true },
+        { "text": "He became unable to speak", "correct": false },
+        { "text": "He left his homeland", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which prophet's mother was instructed by Allah to place him in a chest and cast it into the river?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The mother of Prophet Musa (عليه السلام) received this instruction, as narrated in Surah Taha (20:38–39) and Surah Al-Qasas (28:7).",
+      "options": [
+        { "text": "Prophet Isa (عليه السلام)", "correct": false },
+        { "text": "Prophet Musa (عليه السلام)", "correct": true },
+        { "text": "Prophet Yusuf (عليه السلام)", "correct": false },
+        { "text": "Prophet Yahya (عليه السلام)", "correct": false }
+      ]
+    },
+    {
+      "questionText": "The Quran contains 8 Manaazil.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Quran contains 7 Manaazil.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In terms of verses, Aal-e-Imran is the second longest surah in the Quran (200 verses) after surah Al-Baqarah.",
+      "type": "TRUE_FALSE",
+      "explanation": "Ash-Shu'ra is the 2nd longest with 227 verses, followed by Al-A'raaf (206) and then Aal-e-Imran.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Al-Kawthar has five verses.",
+      "type": "TRUE_FALSE",
+      "explanation": "Al-Kawthar has three verses.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The commonly used division of the Quran has 30 Juz.",
+      "type": "TRUE_FALSE",
+      "explanation": "The standard recitation division contains 30 Juz.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "At-Tawbah begins with Bismillah al-Rahman al-Rahim.",
+      "type": "TRUE_FALSE",
+      "explanation": "At-Tawbah is the only Surah that does not begin with the basmalah.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Ayat al-Kursi is in Surah Al-Baqarah.",
+      "type": "TRUE_FALSE",
+      "explanation": "It is on the 1st page of 3rd Juz.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Bismillahi ar-Rehman-ir-Rahim is mentioned 114 times in the Quran.",
+      "type": "TRUE_FALSE",
+      "explanation": "Once in between Surah An-Naml, and once prior to each surah except At-Tawbah.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Quran was revealed to Prophet Musa عليه السلام.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Quran was revealed to Prophet Muhammad; Musa received the Tawrah.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Surah Maryam is named after Mary, mother of Prophet Isa عليه السلام.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Surah is named Maryam.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Every Surah has the same number of verses.",
+      "type": "TRUE_FALSE",
+      "explanation": "Surah lengths vary considerably.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Al-Asr is the shortest surah in the Quran, by word & letter count.",
+      "type": "TRUE_FALSE",
+      "explanation": "Although several Surahs have three verses, Al-Kawthar is the shortest by word and letter count.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
