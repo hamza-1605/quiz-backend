@@ -1,0 +1,630 @@
+{
+  "category": {
+    "name": "Correct Spellings",
+    "color": "#D35400"
+  },
+  "questions": [
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Lavender",
+          "correct": true
+        },
+        {
+          "text": "Lavendar",
+          "correct": false
+        },
+        {
+          "text": "Lavandar",
+          "correct": false
+        },
+        {
+          "text": "Lavander",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Necassary",
+          "correct": false
+        },
+        {
+          "text": "Necessary",
+          "correct": true
+        },
+        {
+          "text": "Neccessary",
+          "correct": false
+        },
+        {
+          "text": "Necesary",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Environment",
+          "correct": true
+        },
+        {
+          "text": "Environmant",
+          "correct": false
+        },
+        {
+          "text": "Enviroment",
+          "correct": false
+        },
+        {
+          "text": "Envirnoment",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Seperate",
+          "correct": false
+        },
+        {
+          "text": "Seprate",
+          "correct": false
+        },
+        {
+          "text": "Separete",
+          "correct": false
+        },
+        {
+          "text": "Separate",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Exaggerate",
+          "correct": true
+        },
+        {
+          "text": "Exaggarate",
+          "correct": false
+        },
+        {
+          "text": "Exagerrate",
+          "correct": false
+        },
+        {
+          "text": "Exagerate",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Bureaucracy",
+          "correct": true
+        },
+        {
+          "text": "Bureucracy",
+          "correct": false
+        },
+        {
+          "text": "Bureaucrazy",
+          "correct": false
+        },
+        {
+          "text": "Buraeucracy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "text": "Fluorescent", "correct": true },
+        { "text": "Floruscent", "correct": false },
+        { "text": "Fluroscent", "correct": false },
+        { "text": "Fluorecent", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "text": "supercalifragilisticexpialidocious", "correct": true },
+        { "text": "supercallifragilisticexpialiadocious", "correct": false },
+        { "text": "supercalifragilisticexpialiadocious", "correct": false },
+        { "text": "supercallifragilisticexpialidocious", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "text": "Miscellaneous", "correct": true },
+        { "text": "Miscellanoeus", "correct": false },
+        { "text": "Miscellanneous", "correct": false },
+        { "text": "Missellaneous", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "text": "Worcestershire", "correct": true },
+        { "text": "Worcistershire", "correct": false },
+        { "text": "Worcistersheire", "correct": false },
+        { "text": "Worcestersheire", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Mississipi",
+          "correct": false
+        },
+        {
+          "text": "Misissippi",
+          "correct": false
+        },
+        {
+          "text": "Mississippi",
+          "correct": true
+        },
+        {
+          "text": "Missisippi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Knowlegde",
+          "correct": false
+        },
+        {
+          "text": "Knowladge",
+          "correct": false
+        },
+        {
+          "text": "Knowlagde",
+          "correct": false
+        },
+        {
+          "text": "Knowledge",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Receve",
+          "correct": false
+        },
+        {
+          "text": "Recieve",
+          "correct": false
+        },
+        {
+          "text": "Receive",
+          "correct": true
+        },
+        {
+          "text": "Receeve",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Begginig",
+          "correct": false
+        },
+        {
+          "text": "Begginning",
+          "correct": false
+        },
+        {
+          "text": "Beginning",
+          "correct": true
+        },
+        {
+          "text": "Begining",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Ocurence",
+          "correct": false
+        },
+        {
+          "text": "Ocurrence",
+          "correct": false
+        },
+        {
+          "text": "Occurrence",
+          "correct": true
+        },
+        {
+          "text": "Occurrance",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Goverenment",
+          "correct": false
+        },
+        {
+          "text": "Govornment",
+          "correct": false
+        },
+        {
+          "text": "Goverment",
+          "correct": false
+        },
+        {
+          "text": "Government",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Favourate",
+          "correct": false
+        },
+        {
+          "text": "Favourite",
+          "correct": true
+        },
+        {
+          "text": "Favoright",
+          "correct": false
+        },
+        {
+          "text": "Favorit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Restraunt",
+          "correct": false
+        },
+        {
+          "text": "Restaurent",
+          "correct": false
+        },
+        {
+          "text": "Resteraunt",
+          "correct": false
+        },
+        {
+          "text": "Restaurant",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Tommorrow",
+          "correct": false
+        },
+        {
+          "text": "Tommorow",
+          "correct": false
+        },
+        {
+          "text": "Tomorrow",
+          "correct": true
+        },
+        {
+          "text": "Tomorow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Maintanance",
+          "correct": false
+        },
+        {
+          "text": "Maintenance",
+          "correct": true
+        },
+        {
+          "text": "Maintenence",
+          "correct": false
+        },
+        {
+          "text": "Maintanence",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Successful",
+          "correct": true
+        },
+        {
+          "text": "Sucessful",
+          "correct": false
+        },
+        {
+          "text": "Succesful",
+          "correct": false
+        },
+        {
+          "text": "Successfull",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Calandar",
+          "correct": false
+        },
+        {
+          "text": "Calender",
+          "correct": false
+        },
+        {
+          "text": "Calendar",
+          "correct": true
+        },
+        {
+          "text": "Callendar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Feburary",
+          "correct": false
+        },
+        {
+          "text": "February",
+          "correct": true
+        },
+        {
+          "text": "Febraury",
+          "correct": false
+        },
+        {
+          "text": "Febuary",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correctly spelled word.",
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "text": "Acommodation",
+          "correct": false
+        },
+        {
+          "text": "Accomodation",
+          "correct": false
+        },
+        {
+          "text": "Accommadation",
+          "correct": false
+        },
+        {
+          "text": "Accommodation",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The word 'Pneumonia' is spelled correctly.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The correct spelling is 'definately'.",
+      "explanation": "It is spelled as Definitely.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The word 'library' is spelled correctly.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The correct spelling is 'explaination'.",
+      "explanation": "It is spelled as explanation.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The word 'Lieutenant' is spelled correctly.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The correct spelling is 'Handkercheif'.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The word 'island' is spelled correctly.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The correct spelling is 'wich'.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The word 'business' is spelled correctly.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The correct spelling is 'arguement'.",
+      "type": "TRUE_FALSE",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

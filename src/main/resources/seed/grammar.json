@@ -1,0 +1,618 @@
+{
+  "category": {
+    "name": "Grammar",
+    "color": "#3498DB"
+  },
+  "questions": [
+    {
+      "questionText": "Choose the correct sentence.",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "With 'she' in the simple present, the verb is 'goes'.",
+      "options": [
+        {
+          "text": "She goes to school every day.",
+          "correct": true
+        },
+        {
+          "text": "She go to school every day.",
+          "correct": false
+        },
+        {
+          "text": "She going to school every day.",
+          "correct": false
+        },
+        {
+          "text": "She gone to school every day.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the plural of 'child'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The irregular plural of child is children.",
+      "options": [
+        {
+          "text": "Childs",
+          "correct": false
+        },
+        {
+          "text": "Childrens",
+          "correct": false
+        },
+        {
+          "text": "Childes",
+          "correct": false
+        },
+        {
+          "text": "Children",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which word is a noun?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Happiness is a noun naming a state or quality.",
+      "options": [
+        {
+          "text": "Beautiful",
+          "correct": false
+        },
+        {
+          "text": "Happiness",
+          "correct": true
+        },
+        {
+          "text": "Quickly",
+          "correct": false
+        },
+        {
+          "text": "Run",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Complete: 'I ate ___ apple.'",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Use 'an' before the vowel sound at the start of apple.",
+      "options": [
+        {
+          "text": "the",
+          "correct": false
+        },
+        {
+          "text": "no article",
+          "correct": false
+        },
+        {
+          "text": "an",
+          "correct": true
+        },
+        {
+          "text": "a",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the opposite of 'ancient'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Modern is the opposite of ancient.",
+      "options": [
+        {
+          "text": "Historic",
+          "correct": false
+        },
+        {
+          "text": "Past",
+          "correct": false
+        },
+        {
+          "text": "Modern",
+          "correct": true
+        },
+        {
+          "text": "Old",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the simple past tense of 'go'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The simple past tense of go is went.",
+      "options": [
+        {
+          "text": "Went",
+          "correct": true
+        },
+        {
+          "text": "Goed",
+          "correct": false
+        },
+        {
+          "text": "Gone",
+          "correct": false
+        },
+        {
+          "text": "Going",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which punctuation mark ends a direct question?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A question mark ends a direct question.",
+      "options": [
+        {
+          "text": "Full stop (.)",
+          "correct": false
+        },
+        {
+          "text": "Comma (,)",
+          "correct": false
+        },
+        {
+          "text": "Question mark (?)",
+          "correct": true
+        },
+        {
+          "text": "Colon (:)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Complete: 'Ali and ___ went home.'",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "'I' is the subject pronoun in this sentence.",
+      "options": [
+        {
+          "text": "me",
+          "correct": false
+        },
+        {
+          "text": "mine",
+          "correct": false
+        },
+        {
+          "text": "I",
+          "correct": true
+        },
+        {
+          "text": "my",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which word is an adjective in 'The tall boy ran'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Tall describes the noun boy.",
+      "options": [
+        {
+          "text": "The",
+          "correct": false
+        },
+        {
+          "text": "Boy",
+          "correct": false
+        },
+        {
+          "text": "Ran",
+          "correct": false
+        },
+        {
+          "text": "Tall",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Complete: 'They ___ playing football.'",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "'They' takes 'are' in the present continuous.",
+      "options": [
+        {
+          "text": "am",
+          "correct": false
+        },
+        {
+          "text": "are",
+          "correct": true
+        },
+        {
+          "text": "is",
+          "correct": false
+        },
+        {
+          "text": "be",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the comparative form of 'good'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The comparative form of good is better.",
+      "options": [
+        {
+          "text": "Better",
+          "correct": true
+        },
+        {
+          "text": "Best",
+          "correct": false
+        },
+        {
+          "text": "Gooder",
+          "correct": false
+        },
+        {
+          "text": "More good",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the sentence with correct apostrophe use.",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Sara's indicates that the book belongs to Sara.",
+      "options": [
+        {
+          "text": "This is Saras' book.",
+          "correct": false
+        },
+        {
+          "text": "This is Sara's book.",
+          "correct": true
+        },
+        {
+          "text": "This is' Saras book.",
+          "correct": false
+        },
+        {
+          "text": "This is Sara book's.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the past participle of 'write'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The past participle of write is written.",
+      "options": [
+        {
+          "text": "Wrote",
+          "correct": false
+        },
+        {
+          "text": "Writed",
+          "correct": false
+        },
+        {
+          "text": "Writing",
+          "correct": false
+        },
+        {
+          "text": "Written",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which word is a conjunction?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Because is a conjunction introducing a reason.",
+      "options": [
+        {
+          "text": "Because",
+          "correct": true
+        },
+        {
+          "text": "Under",
+          "correct": false
+        },
+        {
+          "text": "Soft",
+          "correct": false
+        },
+        {
+          "text": "Table",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the correct sentence.",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The plural noun books takes the verb are.",
+      "options": [
+        {
+          "text": "There are many books on the shelf.",
+          "correct": true
+        },
+        {
+          "text": "There am many books on the shelf.",
+          "correct": false
+        },
+        {
+          "text": "There is many books on the shelf.",
+          "correct": false
+        },
+        {
+          "text": "There be many books on the shelf.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the superlative form of 'small'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The superlative form of small is smallest.",
+      "options": [
+        {
+          "text": "Smaller",
+          "correct": false
+        },
+        {
+          "text": "Smallest",
+          "correct": true
+        },
+        {
+          "text": "Most smaller",
+          "correct": false
+        },
+        {
+          "text": "More small",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Identify the adverb in 'He speaks softly.'",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Softly describes how he speaks.",
+      "options": [
+        {
+          "text": "He",
+          "correct": false
+        },
+        {
+          "text": "Softly",
+          "correct": true
+        },
+        {
+          "text": "None",
+          "correct": false
+        },
+        {
+          "text": "Speaks",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Complete: '___ going to the market.'",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "They're is the contraction of they are.",
+      "options": [
+        {
+          "text": "Their",
+          "correct": false
+        },
+        {
+          "text": "There",
+          "correct": false
+        },
+        {
+          "text": "Theirs",
+          "correct": false
+        },
+        {
+          "text": "They're",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which sentence is in the future tense?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Will visit expresses a future action.",
+      "options": [
+        {
+          "text": "I visit every day.",
+          "correct": false
+        },
+        {
+          "text": "I will visit tomorrow.",
+          "correct": true
+        },
+        {
+          "text": "I visited yesterday.",
+          "correct": false
+        },
+        {
+          "text": "I am visiting now.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the subject in 'The dog chased the ball'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The dog performs the action, so it is the subject.",
+      "options": [
+        {
+          "text": "The ball",
+          "correct": false
+        },
+        {
+          "text": "Ball",
+          "correct": false
+        },
+        {
+          "text": "The dog",
+          "correct": true
+        },
+        {
+          "text": "Chased",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "A proper noun begins with a capital letter.",
+      "type": "TRUE_FALSE",
+      "explanation": "Proper nouns name specific people, places, or things and begin with capitals.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The word 'quickly' is usually an adjective.",
+      "type": "TRUE_FALSE",
+      "explanation": "Quickly is usually an adverb.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "'Went' is the past tense of 'go'.",
+      "type": "TRUE_FALSE",
+      "explanation": "Went is the simple past form of go.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "A sentence normally begins with a capital letter.",
+      "type": "TRUE_FALSE",
+      "explanation": "Standard written English uses a capital letter at the start of a sentence.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "'Their' and 'there' have the same meaning.",
+      "type": "TRUE_FALSE",
+      "explanation": "Their shows possession; there refers to a place or introduces a statement.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "An adjective can describe a noun.",
+      "type": "TRUE_FALSE",
+      "explanation": "Adjectives give information about nouns.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The plural of the animal 'mouse' is 'mouses'.",
+      "type": "TRUE_FALSE",
+      "explanation": "The usual plural is mice.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A question mark ends a direct question.",
+      "type": "TRUE_FALSE",
+      "explanation": "Direct questions end with a question mark.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "'She don't like tea' is standard subject-verb agreement.",
+      "type": "TRUE_FALSE",
+      "explanation": "The standard form is 'She doesn't like tea'.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A verb can express an action or a state.",
+      "type": "TRUE_FALSE",
+      "explanation": "Verbs can describe actions, events, or states of being.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

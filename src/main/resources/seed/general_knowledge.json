@@ -1,0 +1,641 @@
+{
+  "category": {
+    "name": "General Knowledge",
+    "color": "#8E44AD"
+  },
+  "questions": [
+    {
+      "questionText": "How many days are in a leap year?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A leap year has 366 days.",
+      "options": [
+        {
+          "text": "360",
+          "correct": false
+        },
+        {
+          "text": "364",
+          "correct": false
+        },
+        {
+          "text": "366",
+          "correct": true
+        },
+        {
+          "text": "365",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which instrument measures temperature?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A thermometer measures temperature.",
+      "options": [
+        {
+          "text": "Compass",
+          "correct": false
+        },
+        {
+          "text": "Ruler",
+          "correct": false
+        },
+        {
+          "text": "Thermometer",
+          "correct": true
+        },
+        {
+          "text": "Barometer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many sides does a hexagon have?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A hexagon has six sides.",
+      "options": [
+        {
+          "text": "7",
+          "correct": false
+        },
+        {
+          "text": "8",
+          "correct": false
+        },
+        {
+          "text": "5",
+          "correct": false
+        },
+        {
+          "text": "6",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which gas do humans need to breathe?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Humans need oxygen for cellular respiration.",
+      "options": [
+        {
+          "text": "Oxygen",
+          "correct": true
+        },
+        {
+          "text": "Carbon dioxide",
+          "correct": false
+        },
+        {
+          "text": "Hydrogen",
+          "correct": false
+        },
+        {
+          "text": "Helium",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the currency of the United Kingdom?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The UK uses pound sterling.",
+      "options": [
+        {
+          "text": "Yen",
+          "correct": false
+        },
+        {
+          "text": "Dollar",
+          "correct": false
+        },
+        {
+          "text": "Pound sterling",
+          "correct": true
+        },
+        {
+          "text": "Euro",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What does LCD stands for?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "LCD.",
+      "options": [
+        {
+          "text": "Liquid Crystal Display",
+          "correct": true
+        },
+        {
+          "text": "Light Crystal Display",
+          "correct": false
+        },
+        {
+          "text": "Liquid Crispy Display",
+          "correct": false
+        },
+        {
+          "text": "Light Crispy Display",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What does LED stands for?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "LCD.",
+      "options": [
+        {
+          "text": "Light Emitting Diode",
+          "correct": true
+        },
+        {
+          "text": "Light Emitting Display",
+          "correct": false
+        },
+        {
+          "text": "Liquid Emitting Diode",
+          "correct": false
+        },
+        {
+          "text": "Liquid Emitting Display",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many colours are traditionally named in a rainbow?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A traditional description names seven rainbow colours.",
+      "options": [
+        {
+          "text": "7",
+          "correct": true
+        },
+        {
+          "text": "6",
+          "correct": false
+        },
+        {
+          "text": "5",
+          "correct": false
+        },
+        {
+          "text": "8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many months have 28 days?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "All have at least 28 days. Some has 30 while others have 31 days (with the exception of February)",
+      "options": [
+        {
+          "text": "Zero",
+          "correct": false
+        },
+        {
+          "text": "One",
+          "correct": false
+        },
+        {
+          "text": "Two",
+          "correct": false
+        },
+        {
+          "text": "All",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is the main language of Brazil?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Portuguese is Brazil's official language.",
+      "options": [
+        {
+          "text": "Spanish",
+          "correct": false
+        },
+        {
+          "text": "Portuguese",
+          "correct": true
+        },
+        {
+          "text": "French",
+          "correct": false
+        },
+        {
+          "text": "English",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which organ pumps blood around the body?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The heart pumps blood through the circulatory system.",
+      "options": [
+        {
+          "text": "Lungs",
+          "correct": false
+        },
+        {
+          "text": "Kidneys",
+          "correct": false
+        },
+        {
+          "text": "Stomach",
+          "correct": false
+        },
+        {
+          "text": "Heart",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How many minutes are in one hour?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "One hour contains 60 minutes.",
+      "options": [
+        {
+          "text": "60",
+          "correct": true
+        },
+        {
+          "text": "90",
+          "correct": false
+        },
+        {
+          "text": "100",
+          "correct": false
+        },
+        {
+          "text": "30",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which metal is liquid at ordinary room temperature?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Mercury is liquid at typical room temperature.",
+      "options": [
+        {
+          "text": "Copper",
+          "correct": false
+        },
+        {
+          "text": "Mercury",
+          "correct": true
+        },
+        {
+          "text": "Aluminium",
+          "correct": false
+        },
+        {
+          "text": "Iron",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What process lets plants make food using sunlight?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Plants use photosynthesis to make sugars using light energy.",
+      "options": [
+        {
+          "text": "Respiration",
+          "correct": false
+        },
+        {
+          "text": "Photosynthesis",
+          "correct": true
+        },
+        {
+          "text": "Evaporation",
+          "correct": false
+        },
+        {
+          "text": "Digestion",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the longest river in the world?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Nile is located in Egypt.",
+      "options": [
+        {
+          "text": "Amazon",
+          "correct": false
+        },
+        {
+          "text": "Yellow River",
+          "correct": false
+        },
+        {
+          "text": "Nile",
+          "correct": true
+        },
+        {
+          "text": "Yangtze",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What was the duration of World War I?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "World War I took place around July 28, 1914 till November 11, 1918",
+      "options": [
+        {
+          "text": "1914 - 1919",
+          "correct": false
+        },
+        {
+          "text": "1915 - 1919",
+          "correct": false
+        },
+        {
+          "text": "1914-1918",
+          "correct": true
+        },
+        {
+          "text": "1915-1918",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which internal organ in the human body is responsible for producing bile?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The liver manufactures bile, which helps break down fats, and it sends it to the gallbladder for storage.",
+      "options": [
+        {
+          "text": "Gallbladder",
+          "correct": false
+        },
+        {
+          "text": "Kidneys",
+          "correct": false
+        },
+        {
+          "text": "Liver",
+          "correct": true
+        },
+        {
+          "text": "Stomach",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What does BC stands for as-in '500 BC'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "BC stands for Before Christ, implying before Jesus' birth.",
+      "options": [
+        {
+          "text": "Burger Cheese",
+          "correct": false
+        },
+        {
+          "text": "Before Christ",
+          "correct": true
+        },
+        {
+          "text": "Before Century",
+          "correct": false
+        },
+        {
+          "text": "Before Calendar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What does a red traffic light mean?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A red traffic light tells road users to stop.",
+      "options": [
+        {
+          "text": "Stop",
+          "correct": true
+        },
+        {
+          "text": "Speed up",
+          "correct": false
+        },
+        {
+          "text": "Turn around",
+          "correct": false
+        },
+        {
+          "text": "Go",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the ratio of Land to Water on Earth?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "",
+      "options": [
+        {
+          "text": "39% Land & 61% Water",
+          "correct": false
+        },
+        {
+          "text": "29% Land & 71% Water",
+          "correct": true
+        },
+        {
+          "text": "19% Land & 81% Water",
+          "correct": false
+        },
+        {
+          "text": "49% Land & 51% Water",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "How many wheels does a tricycle have?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Tri- means three; hence the name Tri-cycle",
+      "options": [
+        {
+          "text": "1",
+          "correct": false
+        },
+        {
+          "text": "2",
+          "correct": false
+        },
+        {
+          "text": "3",
+          "correct": true
+        },
+        {
+          "text": "4",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "There are 3600 seconds in one hour.",
+      "type": "TRUE_FALSE",
+      "explanation": "One minute equals 60 seconds. One hour equals 60 minutes. Hence, 60*60 = 3600 seconds.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Pacific Ocean is smaller than the Indian Ocean.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Pacific Ocean is larger than the Indian Ocean.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A thermometer measures temperature.",
+      "type": "TRUE_FALSE",
+      "explanation": "A thermometer is used to measure temperature.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The human heart has four chambers.",
+      "type": "TRUE_FALSE",
+      "explanation": "The human heart has two atria and two ventricles.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Sun rises in the west.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Sun appears to rise in the east.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A Pentagon has six sides.",
+      "type": "TRUE_FALSE",
+      "explanation": "Penta means five. A Pentagon has five sides.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Pure water freezes at about -10°C under standard pressure.",
+      "type": "TRUE_FALSE",
+      "explanation": "The freezing point of water is about 0°C at standard atmospheric pressure.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A year usually has 12 months.",
+      "type": "TRUE_FALSE",
+      "explanation": "A calendar year is divided into 12 months.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pizza was invented in Spain.",
+      "type": "TRUE_FALSE",
+      "explanation": "Pizza was invented in Italy.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Sight, hearing, smell, taste, and touch are the five traditionally listed senses.",
+      "type": "TRUE_FALSE",
+      "explanation": "These are the five senses traditionally taught in basic education.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
