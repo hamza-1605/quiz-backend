@@ -1,0 +1,622 @@
+{
+  "category": {
+    "name": "Cricket",
+    "color": "#16A34A"
+  },
+  "questions": [
+    {
+      "questionText": "How many runs are scored on a 'Dot ball'?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A dot ball refers to a legal delivery, on which no runs has been scored.",
+      "options": [
+        { "text": "Six runs", "correct": false },
+        { "text": "No runs scored off a ball", "correct": true },
+        { "text": "Wicket ball", "correct": false },
+        { "text": "There is no term as dot ball", "correct": false }
+      ]
+    },
+    {
+      "questionText": "How many legal deliveries are there in a standard over?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A standard over consists of six valid deliveries. Wides and no-balls do not count towards the six legal deliveries.",
+      "options": [
+        { "text": "5", "correct": false },
+        { "text": "6", "correct": true },
+        { "text": "7", "correct": false },
+        { "text": "8", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A bowler delivers a wide ball. Does it count as one of the six legal balls in the over?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A wide is an illegal delivery and does not count towards the six valid balls.",
+      "options": [
+        { "text": "Yes, always", "correct": false },
+        { "text": "Only in Test cricket", "correct": false },
+        { "text": "No", "correct": true },
+        { "text": "Only if the batsman misses it", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman hits the ball, and it crosses the boundary after bouncing twice. How many runs are awarded?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A ball that bounces before crossing the boundary gives four runs to the batsman and the team.",
+      "options": [
+        { "text": "Four runs", "correct": true },
+        { "text": "Six runs", "correct": false },
+        { "text": "Only the runs completed", "correct": false },
+        { "text": "The batsman is out", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman hits the ball directly over the boundary without it touching the ground. How many runs are scored?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A ball hit over the boundary without touching the ground scores six runs.",
+      "options": [
+        { "text": "Four", "correct": false },
+        { "text": "Five", "correct": false },
+        { "text": "Six", "correct": true },
+        { "text": "Out!", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the term for a bowler taking three wickets with three consecutive deliveries?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A hat-trick occurs when a bowler dismisses three batsmans with three consecutive deliveries.",
+      "options": [
+        { "text": "Triple strike", "correct": false },
+        { "text": "Hat-trick", "correct": true },
+        { "text": "Maiden wicket", "correct": false },
+        { "text": "Double century", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is a maiden over?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A maiden over is an over in which no runs are charged to the bowler. Byes and leg-byes can still be scored without preventing an over from being a maiden.",
+      "options": [
+        { "text": "An over in which no batsman scores a boundary", "correct": false },
+        { "text": "An over in which no runs are charged to the bowler", "correct": true },
+        { "text": "An over in which the bowler takes a wicket", "correct": false },
+        { "text": "An over consisting of only six dot balls.", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the maximum number of overs a bowler can bowl in a standard 50-over ODI innings?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Under standard ODI playing conditions, no bowler may bowl more than 10 overs in a 50-over innings.",
+      "options": [
+        { "text": "5", "correct": false },
+        { "text": "8", "correct": false },
+        { "text": "10", "correct": true },
+        { "text": "12", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the maximum number of overs a bowler can bowl in a standard T20 International innings?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "In a standard T20 International, a bowler may bowl a maximum of four overs in an innings.",
+      "options": [
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": true },
+        { "text": "5", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman is given out LBW. Which part of the batsman's body must generally be involved in the ball's contact for the dismissal to be possible?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The ball must strike the batsman's body, not the bat, subject to the other LBW conditions. The first contact and the ball's pitch and impact positions matter.",
+      "options": [
+        { "text": "Only the head", "correct": false },
+        { "text": "The batsman's body, such as a leg or body", "correct": true },
+        { "text": "Only the hands", "correct": false },
+        { "text": "Only the clothing", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman hits the ball, and a fielder catches it before it touches the ground. What is the dismissal called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The batsman is out caught if a fair ball is caught by a fielder before touching the ground.",
+      "options": [
+        { "text": "Run out", "correct": false },
+        { "text": "Stumped", "correct": false },
+        { "text": "Caught", "correct": true },
+        { "text": "Bowled", "correct": false }
+      ]
+    },
+    {
+      "questionText": "The wicketkeeper removes the bails while the batsman is outside the crease and not attempting a run. What is the possible dismissal?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The batsman can be stumped if the wicketkeeper fairly puts down the wicket while the batsman is out of their ground and not attempting a run.",
+      "options": [
+        { "text": "Stumped", "correct": true },
+        { "text": "Caught", "correct": false },
+        { "text": "Handled the ball", "correct": false },
+        { "text": "Timed out", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman is attempting a run when a fielder breaks the stumps while the batsman is outside the crease. What is the dismissal?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "This is a run out. Stumping applies when the batsman is not attempting a run and the other relevant conditions are met.",
+      "options": [
+        { "text": "Stumped", "correct": false },
+        { "text": "Run out", "correct": true },
+        { "text": "Bowled", "correct": false },
+        { "text": "Hit wicket", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman is attempting a run. A fielder breaks the stumps while the batsman's body/bat is grounded on the crease-line. What is the decision?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "This is a run out. For a completed run, the bat/body of the batsman must cross the line with addition to being grounded.",
+      "options": [
+        { "text": "Not out", "correct": false },
+        { "text": "Out", "correct": true },
+        { "text": "Dead ball", "correct": false },
+        { "text": "Batsman get to decide", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the main purpose of the third umpire?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The third umpire uses video technology to assist on-field umpires with decisions referred for review, such as run-outs and boundary decisions.",
+      "options": [
+        { "text": "To replace both on-field umpires", "correct": false },
+        { "text": "To decide the batting order", "correct": false },
+        { "text": "To review certain decisions using technology", "correct": true },
+        { "text": "To select the player of the match", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is this fielding position called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "It is called a leg-slip.",
+      "options": [
+        { "text": "Fine Leg", "correct": false },
+        { "text": "Square Leg", "correct": false },
+        { "text": "Leg-Slip", "correct": true },
+        { "text": "Gully", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is this fielding position called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "It is called a Silly point. You have to be pretty silly (or brave) to be standing in such a position :D",
+      "options": [
+        { "text": "Silly Point", "correct": true },
+        { "text": "Silly Leg", "correct": false },
+        { "text": "Mid-off", "correct": false },
+        { "text": "Silly mid-off", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is this signal by the umpire?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "No-ball. A single arm stretched horizontally signals a no-ball.",
+      "options": [
+        { "text": "No-ball", "correct": true },
+        { "text": "Wide ball", "correct": false },
+        { "text": "Out", "correct": false },
+        { "text": "Six", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which country won the first men's Cricket World Cup in 1975?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "West Indies won the inaugural men's Cricket World Cup in 1975, defeating Australia in the final at Lord's.",
+      "options": [
+        { "text": "Australia", "correct": false },
+        { "text": "England", "correct": false },
+        { "text": "West Indies", "correct": true },
+        { "text": "India", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which country won the first men's T20 World Cup in 2007?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "India won the inaugural ICC Men's T20 World Cup in 2007, defeating Pakistan in the final.",
+      "options": [
+        { "text": "Pakistan", "correct": false },
+        { "text": "India", "correct": true },
+        { "text": "Australia", "correct": false },
+        { "text": "South Africa", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which country hosted the first men's Cricket World Cup in 1975?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The inaugural men's Cricket World Cup was hosted by England in 1975.",
+      "options": [
+        { "text": "Australia", "correct": false },
+        { "text": "England", "correct": true },
+        { "text": "India", "correct": false },
+        { "text": "West Indies", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the name of the trophy contested between Australia and England in Test cricket?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Ashes is the historic Test cricket contest between Australia and England.",
+      "options": [
+        { "text": "Border-Gavaskar Trophy", "correct": false },
+        { "text": "The Ashes", "correct": true },
+        { "text": "Frank Worrell Trophy", "correct": false },
+        { "text": "Pataudi Trophy", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What does the term 'follow-on' mean in Test cricket?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "If the team batting second falls behind by the required number of runs, the team batting first may enforce the follow-on, requiring the opposing team to bat again immediately.",
+      "options": [
+        { "text": "The batting team must continue after losing a wicket", "correct": false },
+        { "text": "The team batting second may be required to bat again immediately", "correct": true },
+        { "text": "The match is automatically declared a draw", "correct": false },
+        { "text": "The fielding team gets an extra innings", "correct": false }
+      ]
+    },
+    {
+      "questionText": "In a standard five-day men's Test match, what is the follow-on threshold when the match has the full five days available? (The minimum runs remaining for follow-on to be applied is: )",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The side batting second must be 200 or more runs behind to be liable to the follow-on in a five-day Test.",
+      "options": [
+        { "text": "100 runs", "correct": false },
+        { "text": "150 runs", "correct": false },
+        { "text": "200 runs", "correct": true },
+        { "text": "250 runs", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the term for a batsman scoring 100 runs in a single innings?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Scoring 100 runs in an innings is called a century.",
+      "options": [
+        { "text": "Half-century", "correct": false },
+        { "text": "Century", "correct": true },
+        { "text": "Double century", "correct": false },
+        { "text": "Ton-up over", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman scores 49 runs and then hits a six. What is the batsman's score?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The six adds six runs to the batsman's individual score, taking the total to 55.",
+      "options": [
+        { "text": "50", "correct": false },
+        { "text": "54", "correct": false },
+        { "text": "55", "correct": true },
+        { "text": "56", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A bowler delivers a no-ball, and the batsman hits it for six. How many runs are added to the team's total?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The team receives one no-ball extra plus six runs for the hit, making seven in total.",
+      "options": [
+        { "text": "Six", "correct": false },
+        { "text": "Seven", "correct": true },
+        { "text": "Eight", "correct": false },
+        { "text": "One", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman attempts to hit the ball, it deflects off their body. The batsmans run two. What are these runs generally recorded as?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "If the ball has not touched the bat or the hand holding it, runs taken from a body deflection are generally recorded as leg-byes.",
+      "options": [
+        { "text": "Byes", "correct": false },
+        { "text": "Leg-byes", "correct": true },
+        { "text": "No-balls", "correct": false },
+        { "text": "Penalty runs", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the maximum number of fielders allowed on the leg side at the moment of delivery under the Laws of Cricket?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "No more than five fielders may be on the leg side at the moment the ball is delivered.",
+      "options": [
+        { "text": "Four", "correct": false },
+        { "text": "Five", "correct": true },
+        { "text": "Six", "correct": false },
+        { "text": "Seven", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the name of the fielding restriction period at the beginning of a standard men's ODI innings?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The first 10 overs of a standard 50-over men's ODI innings are Powerplay 1, during which only two fielders may be outside the 30-yard circle.",
+      "options": [
+        { "text": "Powerplay 1", "correct": true },
+        { "text": "Death overs", "correct": false },
+        { "text": "Super Over", "correct": false },
+        { "text": "Follow-on", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is a Super Over used for in limited-overs cricket?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A Super Over is a one-over-per-side tiebreaker used in certain limited-overs competitions when a match is tied.",
+      "options": [
+        { "text": "To replace the first innings", "correct": false },
+        { "text": "To decide a tied match", "correct": true },
+        { "text": "To give each team an extra 10 overs", "correct": false },
+        { "text": "To decide the toss again", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which of the following is a legal way for a bowler to dismiss a batsman?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A batsman can be dismissed hit wicket if they break their wicket with their bat or body.",
+      "options": [
+        { "text": "The batsman accidentally drops the bat", "correct": false },
+        { "text": "The batsman breaks their own wicket while playing or setting off for the first run", "correct": true },
+        { "text": "The batsman misses the ball", "correct": false },
+        { "text": "The batsman changes their stance", "correct": false }
+      ]
+    },
+    {
+      "questionText": "The first official men's Test match was played between which two teams?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Australia and England played the first recognised Test match in Melbourne in March 1877.",
+      "options": [
+        { "text": "England and India", "correct": false },
+        { "text": "Australia and England", "correct": true },
+        { "text": "Australia and South Africa", "correct": false },
+        { "text": "England and West Indies", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the usual colour of the ball used in traditional day Test cricket?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Red is the traditional ball colour for day Test matches. Pink balls are commonly used for day-night Test matches.",
+      "options": [
+        { "text": "White", "correct": false },
+        { "text": "Pink", "correct": false },
+        { "text": "Red", "correct": true },
+        { "text": "Orange", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the usual colour of the ball used in ODI and T20I cricket?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "White ball is used in ODI or T20 matches, regardless of it being a day match or day-night match,",
+      "options": [
+        { "text": "White", "correct": true },
+        { "text": "Pink", "correct": false },
+        { "text": "Red", "correct": false },
+        { "text": "Orange", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman leaves a delivery alone, and the ball hits the stumps. What happens?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "If a legal delivery hits the stumps and dislodges the bails, the batsman is out bowled even if they did not attempt a shot.",
+      "options": [
+        { "text": "The batsman is not out because no shot was attempted", "correct": false },
+        { "text": "The batsman is out bowled", "correct": true },
+        { "text": "The delivery is called dead", "correct": false },
+        { "text": "The batsman receives a warning", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman attempts to play a ball, he misses it and the ball hits the stumps but the bails have not been dislodged. What happens?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "If a delivery hits the stumps and does not dislodges the bails, the batsman is not out.",
+      "options": [
+        { "text": "The batsman is not out", "correct": false },
+        { "text": "The batsman is out", "correct": true },
+        { "text": "The delivery is called dead", "correct": false },
+        { "text": "The batsman is retired", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A fielder catches the ball after it has bounced once. Is the batsman out caught?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "For a caught dismissal, the ball must be held by a fielder before it touches the ground. A catch after a bounce is not a valid catch.",
+      "options": [
+        { "text": "Yes, always", "correct": false },
+        { "text": "Yes, if it bounced only once", "correct": false },
+        { "text": "No", "correct": true },
+        { "text": "Only in T20 cricket", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman is bowled on the final ball of an over. Who faces the first ball of the next over?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The surviving batsman faces the next over if the dismissed batsman was at the other end. The strike depends on which batsman was at the striker's end when the wicket fell, not simply on the fact that it was the final ball.",
+      "options": [
+        { "text": "The new batsman", "correct": false },
+        { "text": "The surviving batsman", "correct": true },
+        { "text": "The opposition teams gets to decide", "correct": false },
+        { "text": "The captain chooses", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman hits the ball into the air. A fielder catches it, but his foot touches the boundary while still holding the ball. What is the decision?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A fielder must be inside the boundary when completing a catch. If the fielder is touching or grounded beyond the boundary while holding the ball, the hit is a boundary six.",
+      "options": [
+        { "text": "The batsman is out caught", "correct": false },
+        { "text": "The batsman scores four", "correct": false },
+        { "text": "The batsman scores six", "correct": true },
+        { "text": "The ball is dead with no runs", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A no-ball is bowled and the batsman is caught out. Is the batsman dismissed?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A batsman cannot be dismissed caught off a no-ball. However, certain dismissals such as run out or obstructing the field can still apply.",
+      "options": [
+        { "text": "Yes, caught is always valid", "correct": false },
+        { "text": "No, not caught off a no-ball", "correct": true },
+        { "text": "Only if the catch is taken by the wicketkeeper", "correct": false },
+        { "text": "Only in Test cricket", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman is caught on a free-hit. Is the batsman dismissed?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A batsman cannot be dismissed caught on a free-hit. However, certain dismissals such as run out or obstructing the field can still apply.",
+      "options": [
+        { "text": "Yes, caught is always valid", "correct": false },
+        { "text": "No, not caught off a free-hit", "correct": true },
+        { "text": "Only if the catch is taken by the wicketkeeper", "correct": false },
+        { "text": "Only in ODI cricket", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman scores 100 runs from 50 balls. What is the batsman's strike rate?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Strike rate = (runs scored ÷ balls faced) × 100. Here, (100 ÷ 50) × 100 = 200.",
+      "options": [
+        { "text": "50", "correct": false },
+        { "text": "75", "correct": false },
+        { "text": "100", "correct": false },
+        { "text": "200", "correct": true }
+      ]
+    },
+    {
+      "questionText": "A team needs 12 runs from the final 6 balls. It scores 12 runs from the first 5 balls. What happens?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The team has reached the target, so the innings and match end immediately. The final delivery is not required.",
+      "options": [
+        { "text": "The final ball must still be bowled", "correct": false },
+        { "text": "The innings ends once the target is reached", "correct": true },
+        { "text": "The team must score one more run", "correct": false },
+        { "text": "The match is declared a tie", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A batsman is dismissed run out while attempting the third run. How many runs are generally scored?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Completed runs before a run-out count. The attempted third run is not awarded merely because it was attempted.",
+      "options": [
+        { "text": "One", "correct": false },
+        { "text": "Two", "correct": true },
+        { "text": "Three", "correct": false },
+        { "text": "Zero", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A bowler bowls a bouncer that passes by the batsman, almost at head-height. It was the first bouncer of the over. What happens next?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The umpire gives the bowler a warning to the bowler. In Test & ODI cricket, such balls are allowed twice in an over; meanwhile in T20, only once is allowed in the over.",
+      "options": [
+        { "text": "No-ball called", "correct": false },
+        { "text": "The umpire gives the bowler a warning to the bowler", "correct": true },
+        { "text": "Nothing happens", "correct": false },
+        { "text": "Wide ball called", "correct": false }
+      ]
+    },
+    {
+      "questionText": "In cricket, a ball that pitches outside the leg stump can result in an LBW dismissal.",
+      "type": "TRUE_FALSE",
+      "explanation": "Under the LBW law, a batsman cannot be given out if the ball pitches outside leg stump, even if the other conditions appear to be satisfied.",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true }
+      ]
+    },
+    {
+      "questionText": "A wide delivery can still result in a stumping dismissal.",
+      "type": "TRUE_FALSE",
+      "explanation": "A batsman can be stumped off a wide.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "The bowling team has appealed for an LBW. Upon replay, it shows the ball hits the bat and then the pad. It will be given as out.",
+      "type": "TRUE_FALSE",
+      "explanation": "For an LBW, the ball should not make contact with the bat or gloves prior to hitting the leg/body.",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true }
+      ]
+    },
+    {
+      "questionText": "A bowler can be credited with a wicket when a batsman is dismissed run out.",
+      "type": "TRUE_FALSE",
+      "explanation": "Run outs are not credited to the bowler. The bowler is credited with certain dismissals such as bowled, caught, LBW, stumped, and hit wicket.",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true }
+      ]
+    },
+    {
+      "questionText": "A standard cricket team has 11 players on the field.",
+      "type": "TRUE_FALSE",
+      "explanation": "Each team normally has 11 players, with one team batting and the other fielding.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "In a standard ODI, each team is scheduled to face a maximum of 50 overs.",
+      "type": "TRUE_FALSE",
+      "explanation": "A standard men's ODI is limited to 50 overs per side, subject to reductions caused by interruptions.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A full-toss hits the batsman directly on the pad. The DRS shows that the impact is outside leg-stump, and hitting the wickets. It is considered out LBW.",
+      "type": "TRUE_FALSE",
+      "explanation": "For a LBW dismissal, the ball must not pitch or impact outside the leg-stump.",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true }
+      ]
+    },
+    {
+      "questionText": "A pink cricket ball is used in day-night Test matches.",
+      "type": "TRUE_FALSE",
+      "explanation": "Pink balls are used in day-night Tests because they are designed to remain visible under floodlights.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "The Ashes is contested between England and Australia.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Ashes is the historic Test series between England and Australia.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "In a standard T20 International, a bowler can bowl a maximum of four overs.",
+      "type": "TRUE_FALSE",
+      "explanation": "The standard limit is four overs per bowler in a full 20-over innings.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "After a dismissal, the next batsman takes more than 3 minutes to reach at the crease. He can be dismissed as 'timed out'.",
+      "type": "TRUE_FALSE",
+      "explanation": "Although the dismissal is not automatic; the fielding captain can make an appeal to the umpires and dismiss the batsman as 'timed out'.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "The ball hits the helmet which was placed behind the keeper on the ground. The batting team gets bonus 10 runs.",
+      "type": "TRUE_FALSE",
+      "explanation": "Any equipment (such as helmet) placed on the ground and the ball hitting it, gives the batting team additional 5 runs.",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "category": {
+    "name": "Animals",
+    "color": "#27AE60"
+  },
+  "questions": [
+    {
+      "questionText": "Which is the largest land animal?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The African elephant is the largest living land animal.",
+      "options": [
+        {
+          "text": "African elephant",
+          "correct": true
+        },
+        {
+          "text": "Giraffe",
+          "correct": false
+        },
+        {
+          "text": "Rhinoceros",
+          "correct": false
+        },
+        {
+          "text": "Hippopotamus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which animal is commonly called the king of the jungle?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The lion is commonly known by this nickname.",
+      "options": [
+        {
+          "text": "Tiger",
+          "correct": false
+        },
+        {
+          "text": "Leopard",
+          "correct": false
+        },
+        {
+          "text": "Lion",
+          "correct": true
+        },
+        {
+          "text": "Cheetah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What do pandas mainly eat?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Pandas mainly eat bamboo.",
+      "options": [
+        {
+          "text": "Insects",
+          "correct": false
+        },
+        {
+          "text": "Fish",
+          "correct": false
+        },
+        {
+          "text": "Grass",
+          "correct": false
+        },
+        {
+          "text": "Bamboo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which animal can change its colour?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Chameleons can change colour for communication and camouflage.",
+      "options": [
+        {
+          "text": "Chameleon",
+          "correct": true
+        },
+        {
+          "text": "Lizard",
+          "correct": false
+        },
+        {
+          "text": "Zebra",
+          "correct": false
+        },
+        {
+          "text": "Kangaroo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is a baby dog called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A young dog is called a puppy.",
+      "options": [
+        {
+          "text": "Calf",
+          "correct": false
+        },
+        {
+          "text": "Puppy",
+          "correct": true
+        },
+        {
+          "text": "Cub",
+          "correct": false
+        },
+        {
+          "text": "Kitten",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which bird can often mimic human speech?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Many parrots can imitate human sounds.",
+      "options": [
+        {
+          "text": "Eagle",
+          "correct": false
+        },
+        {
+          "text": "Parrot",
+          "correct": true
+        },
+        {
+          "text": "Ostrich",
+          "correct": false
+        },
+        {
+          "text": "Penguin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the fastest land animal?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The cheetah is the fastest land animal over short distances.",
+      "options": [
+        {
+          "text": "Cheetah",
+          "correct": true
+        },
+        {
+          "text": "Horse",
+          "correct": false
+        },
+        {
+          "text": "Leopard",
+          "correct": false
+        },
+        {
+          "text": "Lion",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which animal carries its baby in a pouch?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Female kangaroos carry their young in a pouch.",
+      "options": [
+        {
+          "text": "Fox",
+          "correct": false
+        },
+        {
+          "text": "Kangaroo",
+          "correct": true
+        },
+        {
+          "text": "Deer",
+          "correct": false
+        },
+        {
+          "text": "Elephant",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the largest animal on Earth?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The blue whale is the largest known animal.",
+      "options": [
+        {
+          "text": "Blue whale",
+          "correct": true
+        },
+        {
+          "text": "African elephant",
+          "correct": false
+        },
+        {
+          "text": "Great white shark",
+          "correct": false
+        },
+        {
+          "text": "Giraffe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which animal has a very long neck?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Giraffes are known for their exceptionally long necks.",
+      "options": [
+        {
+          "text": "Zebra",
+          "correct": false
+        },
+        {
+          "text": "Giraffe",
+          "correct": true
+        },
+        {
+          "text": "Camel",
+          "correct": false
+        },
+        {
+          "text": "Moose",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "A group of fish is commonly called a what?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A group of fish is commonly called a school or shoal.",
+      "options": [
+        {
+          "text": "Herd",
+          "correct": false
+        },
+        {
+          "text": "School",
+          "correct": true
+        },
+        {
+          "text": "Pack",
+          "correct": false
+        },
+        {
+          "text": "Flock",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is this animal called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Leopard. Although leopard and cheetah may look similar, but cheetah has spots and leopard has rosettes.",
+      "options": [
+        {
+          "text": "Lion",
+          "correct": false
+        },
+        {
+          "text": "Leopard",
+          "correct": true
+        },
+        {
+          "text": "Cheetah",
+          "correct": false
+        },
+        {
+          "text": "Tiger",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which mammal is capable of true flight?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Bats are the only mammals capable of sustained flight.",
+      "options": [
+        {
+          "text": "Penguin",
+          "correct": false
+        },
+        {
+          "text": "Butterfly",
+          "correct": false
+        },
+        {
+          "text": "Eagle",
+          "correct": false
+        },
+        {
+          "text": "Bat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which animal is famous for building dams?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Beavers build dams from branches and mud.",
+      "options": [
+        {
+          "text": "Badger",
+          "correct": false
+        },
+        {
+          "text": "Squirrel",
+          "correct": false
+        },
+        {
+          "text": "Otter",
+          "correct": false
+        },
+        {
+          "text": "Beaver",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What do bees collect from flowers to make honey?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Bees collect nectar and use it to make honey.",
+      "options": [
+        {
+          "text": "Sand",
+          "correct": false
+        },
+        {
+          "text": "Leaves",
+          "correct": false
+        },
+        {
+          "text": "Nectar",
+          "correct": true
+        },
+        {
+          "text": "Tree bark",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which animal has black-and-white stripes?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Zebras are known for their striped coats.",
+      "options": [
+        {
+          "text": "Zebra",
+          "correct": true
+        },
+        {
+          "text": "Leopard",
+          "correct": false
+        },
+        {
+          "text": "Giraffe",
+          "correct": false
+        },
+        {
+          "text": "Tiger",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which sea creature has eight arms?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "An octopus has eight arms.",
+      "options": [
+        {
+          "text": "Shark",
+          "correct": false
+        },
+        {
+          "text": "Octopus",
+          "correct": true
+        },
+        {
+          "text": "Seahorse",
+          "correct": false
+        },
+        {
+          "text": "Dolphin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which animal has a protective shell and moves slowly?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Tortoises have protective shells and generally move slowly.",
+      "options": [
+        {
+          "text": "Rabbit",
+          "correct": false
+        },
+        {
+          "text": "Deer",
+          "correct": false
+        },
+        {
+          "text": "Fox",
+          "correct": false
+        },
+        {
+          "text": "Tortoise",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is a baby cat called?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A baby cat is called a kitten.",
+      "options": [
+        {
+          "text": "Puppy",
+          "correct": false
+        },
+        {
+          "text": "Lamb",
+          "correct": false
+        },
+        {
+          "text": "Kitten",
+          "correct": true
+        },
+        {
+          "text": "Foal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which animal is often called the ship of the desert?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Camels are adapted to desert environments.",
+      "options": [
+        {
+          "text": "Horse",
+          "correct": false
+        },
+        {
+          "text": "Llama",
+          "correct": false
+        },
+        {
+          "text": "Camel",
+          "correct": true
+        },
+        {
+          "text": "Donkey",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these animals lays eggs?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Snakes are reptiles and lay eggs.",
+      "options": [
+        {
+          "text": "Snakes",
+          "correct": true
+        },
+        {
+          "text": "Cat",
+          "correct": false
+        },
+        {
+          "text": "Cow",
+          "correct": false
+        },
+        {
+          "text": "Dolphin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Dolphins are mammals.",
+      "type": "TRUE_FALSE",
+      "explanation": "Dolphins breathe air and feed their young with milk.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Penguins can fly.",
+      "type": "TRUE_FALSE",
+      "explanation": "Penguins are birds adapted for swimming, not flying.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A spider has eight legs.",
+      "type": "TRUE_FALSE",
+      "explanation": "Adult spiders have eight legs.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "A tortoise can go under-water as well as stay on land.",
+      "type": "TRUE_FALSE",
+      "explanation": "Turtle is an semi-aquatic, meaning it can live both underwater and on land; whereas tortoise only stays on land.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Bats are completely blind.",
+      "type": "TRUE_FALSE",
+      "explanation": "Bats can see; some also use echolocation.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Frogs are amphibians.",
+      "type": "TRUE_FALSE",
+      "explanation": "Frogs are amphibians and can live in water and on land.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "All snakes are venomous.",
+      "type": "TRUE_FALSE",
+      "explanation": "Many snake species are non-venomous.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A group of lions is called a pride.",
+      "type": "TRUE_FALSE",
+      "explanation": "A group of lions is indeed known as a pride.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Ostriches are classified as a bird.",
+      "type": "TRUE_FALSE",
+      "explanation": "The ostrich is the largest and heaviest living bird.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Polar bears naturally live in Antarctica.",
+      "type": "TRUE_FALSE",
+      "explanation": "Polar bears live in the Arctic, not Antarctica.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A crocodile gives birth instead of laying eggs.",
+      "type": "TRUE_FALSE",
+      "explanation": "Crocodiles are reptiles and lay eggs.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Butterflies begin life as caterpillars.",
+      "type": "TRUE_FALSE",
+      "explanation": "Butterflies hatch as caterpillars before becoming pupae and adults.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

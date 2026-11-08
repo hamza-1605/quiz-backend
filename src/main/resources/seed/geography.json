@@ -1,0 +1,817 @@
+{
+  "category": {
+    "name": "Geography",
+    "color": "#16A085"
+  },
+  "questions": [
+    {
+      "questionText": "Which is the largest continent?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Asia is the largest continent by land area.",
+      "options": [
+        {
+          "text": "Asia",
+          "correct": true
+        },
+        {
+          "text": "Antarctica",
+          "correct": false
+        },
+        {
+          "text": "Africa",
+          "correct": false
+        },
+        {
+          "text": "Europe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which continent is Egypt mainly located in?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Most of Egypt is in Africa; the Sinai Peninsula is in Asia.",
+      "options": [
+        {
+          "text": "South America",
+          "correct": false
+        },
+        {
+          "text": "Europe",
+          "correct": false
+        },
+        {
+          "text": "Asia",
+          "correct": false
+        },
+        {
+          "text": "Africa",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is the capital of Pakistan?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Islamabad is Pakistan's capital.",
+      "options": [
+        {
+          "text": "Islamabad",
+          "correct": true
+        },
+        {
+          "text": "Lahore",
+          "correct": false
+        },
+        {
+          "text": "Karachi",
+          "correct": false
+        },
+        {
+          "text": "Peshawar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which country is famous for the Eiffel Tower?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Eiffel Tower is in Paris, France.",
+      "options": [
+        {
+          "text": "Spain",
+          "correct": false
+        },
+        {
+          "text": "France",
+          "correct": true
+        },
+        {
+          "text": "Italy",
+          "correct": false
+        },
+        {
+          "text": "Germany",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which continent is Brazil in?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Brazil is the largest country in South America.",
+      "options": [
+        {
+          "text": "South America",
+          "correct": true
+        },
+        {
+          "text": "Africa",
+          "correct": false
+        },
+        {
+          "text": "Europe",
+          "correct": false
+        },
+        {
+          "text": "North America",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which country has a maple leaf on its flag?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Canada's flag features a red maple leaf.",
+      "options": [
+        {
+          "text": "Japan",
+          "correct": false
+        },
+        {
+          "text": "Canada",
+          "correct": true
+        },
+        {
+          "text": "Mexico",
+          "correct": false
+        },
+        {
+          "text": "Australia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which country's flag is this?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Canada's flag features a red maple leaf.",
+      "options": [
+        {
+          "text": "Maldives",
+          "correct": false
+        },
+        {
+          "text": "Canada",
+          "correct": true
+        },
+        {
+          "text": "China",
+          "correct": false
+        },
+        {
+          "text": "Finland",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which country's flag is this?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "South Africa's flag features 6 different colors.",
+      "options": [
+        {
+          "text": "America",
+          "correct": false
+        },
+        {
+          "text": "South Africa",
+          "correct": true
+        },
+        {
+          "text": "Cambodia",
+          "correct": false
+        },
+        {
+          "text": "Nigeria",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What continent is this?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Asia is the largest and most populated continent on Earth.",
+      "options": [
+        {
+          "text": "North America",
+          "correct": false
+        },
+        {
+          "text": "Asia",
+          "correct": true
+        },
+        {
+          "text": "Africa",
+          "correct": false
+        },
+        {
+          "text": "Europe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What continent is this?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "North America is the third-largest continent in the world.",
+      "options": [
+        {
+          "text": "North America",
+          "correct": true
+        },
+        {
+          "text": "South America",
+          "correct": false
+        },
+        {
+          "text": "Australia/Oceania",
+          "correct": false
+        },
+        {
+          "text": "Europe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Where is the famous landmark 'Colosseum' located?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Colosseum was used to host gladiator contests, public spectacles, and animal hunts for crowds of up to 50,000 people.",
+      "options": [
+        {
+          "text": "Rome, Italy",
+          "correct": true
+        },
+        {
+          "text": "Paris, France",
+          "correct": false
+        },
+        {
+          "text": "Frankfurt, Germany",
+          "correct": false
+        },
+        {
+          "text": "Cairo, Egypt",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Where are these famous towers located?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Kuwait Towers are located in Kuwait. It says it in the name.",
+      "options": [
+        {
+          "text": "Kuwait City, Kuwait",
+          "correct": true
+        },
+        {
+          "text": "Sydney, Australia",
+          "correct": false
+        },
+        {
+          "text": "Dubai, UAE",
+          "correct": false
+        },
+        {
+          "text": "Pisa, Italy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the smallest continent by area?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Australia is commonly considered the smallest continent.",
+      "options": [
+        {
+          "text": "Australia",
+          "correct": true
+        },
+        {
+          "text": "Europe",
+          "correct": false
+        },
+        {
+          "text": "Antarctica",
+          "correct": false
+        },
+        {
+          "text": "South America",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the capital of China?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Beijing is China's capital.",
+      "options": [
+        {
+          "text": "Hong Kong",
+          "correct": false
+        },
+        {
+          "text": "Wuhan",
+          "correct": false
+        },
+        {
+          "text": "Shanghai",
+          "correct": false
+        },
+        {
+          "text": "Beijing",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which ocean lies between Africa and Australia?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Indian Ocean lies between eastern Africa and western Australia.",
+      "options": [
+        {
+          "text": "Indian Ocean",
+          "correct": true
+        },
+        {
+          "text": "Pacific Ocean",
+          "correct": false
+        },
+        {
+          "text": "Atlantic Ocean",
+          "correct": false
+        },
+        {
+          "text": "Arctic Ocean",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which country is often described as boot-shaped?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Italy has a distinctive boot-like shape.",
+      "options": [
+        {
+          "text": "Portugal",
+          "correct": false
+        },
+        {
+          "text": "Italy",
+          "correct": true
+        },
+        {
+          "text": "Norway",
+          "correct": false
+        },
+        {
+          "text": "Greece",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "On which continent is the Sahara Desert?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Sahara is in northern Africa, regarded as the hottest desert.",
+      "options": [
+        {
+          "text": "Europe",
+          "correct": false
+        },
+        {
+          "text": "Africa",
+          "correct": true
+        },
+        {
+          "text": "Asia",
+          "correct": false
+        },
+        {
+          "text": "Australia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which country lies directly south of the United States?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Mexico shares its northern border with the United States.",
+      "options": [
+        {
+          "text": "Mexico",
+          "correct": true
+        },
+        {
+          "text": "Canada",
+          "correct": false
+        },
+        {
+          "text": "Cuba",
+          "correct": false
+        },
+        {
+          "text": "Brazil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the capital of the United Kingdom?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "London is the UK's capital.",
+      "options": [
+        {
+          "text": "Edinburgh",
+          "correct": false
+        },
+        {
+          "text": "Birmingham",
+          "correct": false
+        },
+        {
+          "text": "Manchester",
+          "correct": false
+        },
+        {
+          "text": "London",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the coldest continent?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Antarctica is the coldest continent.",
+      "options": [
+        {
+          "text": "Asia",
+          "correct": false
+        },
+        {
+          "text": "Antarctica",
+          "correct": true
+        },
+        {
+          "text": "Europe",
+          "correct": false
+        },
+        {
+          "text": "North America",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which country is known for the Great Wall?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Great Wall is in China.",
+      "options": [
+        {
+          "text": "India",
+          "correct": false
+        },
+        {
+          "text": "China",
+          "correct": true
+        },
+        {
+          "text": "Japan",
+          "correct": false
+        },
+        {
+          "text": "Mongolia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Kenya is located on which continent?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Kenya is in East Africa.",
+      "options": [
+        {
+          "text": "Europe",
+          "correct": false
+        },
+        {
+          "text": "Africa",
+          "correct": true
+        },
+        {
+          "text": "Asia",
+          "correct": false
+        },
+        {
+          "text": "South America",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the capital of Türkiye?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Ankara is the capital of Türkiye.",
+      "options": [
+        {
+          "text": "Izmir",
+          "correct": false
+        },
+        {
+          "text": "Ankara",
+          "correct": true
+        },
+        {
+          "text": "Istanbul",
+          "correct": false
+        },
+        {
+          "text": "Antalya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the capital of Japan?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Tokyo is Japan's capital.",
+      "options": [
+        {
+          "text": "Beijing",
+          "correct": false
+        },
+        {
+          "text": "Tokyo",
+          "correct": true
+        },
+        {
+          "text": "Bangkok",
+          "correct": false
+        },
+        {
+          "text": "Seoul",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the largest ocean?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Pacific is the world's largest ocean.",
+      "options": [
+        {
+          "text": "Atlantic Ocean",
+          "correct": false
+        },
+        {
+          "text": "Pacific Ocean",
+          "correct": true
+        },
+        {
+          "text": "Arctic Ocean",
+          "correct": false
+        },
+        {
+          "text": "Indian Ocean",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Madrid is the capital of which country?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Madrid is Spain's capital.",
+      "options": [
+        {
+          "text": "Spain",
+          "correct": true
+        },
+        {
+          "text": "France",
+          "correct": false
+        },
+        {
+          "text": "Portugal",
+          "correct": false
+        },
+        {
+          "text": "Argentina",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which continent contains the Amazon Rainforest?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Most of the Amazon Rainforest is in South America.",
+      "options": [
+        {
+          "text": "Africa",
+          "correct": false
+        },
+        {
+          "text": "Europe",
+          "correct": false
+        },
+        {
+          "text": "South America",
+          "correct": true
+        },
+        {
+          "text": "Asia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which country is also a continent?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Australia is both a country and a continent.",
+      "options": [
+        {
+          "text": "Iceland",
+          "correct": false
+        },
+        {
+          "text": "Australia",
+          "correct": true
+        },
+        {
+          "text": "Madagascar",
+          "correct": false
+        },
+        {
+          "text": "Greenland",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Asia and Europe are counted as separate continents.",
+      "type": "TRUE_FALSE",
+      "explanation": "They are separate continents in the common seven-continent model.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Canada is in South America.",
+      "type": "TRUE_FALSE",
+      "explanation": "Canada is in North America.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The capital of Australia is Sydney.",
+      "type": "TRUE_FALSE",
+      "explanation": "Canberra is Australia's capital.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The Pacific Ocean is the largest ocean.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Pacific is the world's largest ocean.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Japan is an island country in Asia.",
+      "type": "TRUE_FALSE",
+      "explanation": "Japan is an island country in East Asia.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The capital of Pakistan is Karachi.",
+      "type": "TRUE_FALSE",
+      "explanation": "Islamabad is the capital; Karachi is Pakistan's largest city.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The Equator passes through Africa.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Equator crosses several African countries.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Brazil is in Europe.",
+      "type": "TRUE_FALSE",
+      "explanation": "Brazil is in South America.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Antarctica has no permanent native human population.",
+      "type": "TRUE_FALSE",
+      "explanation": "People live there temporarily, mainly for research.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Nile River is in Africa.",
+      "type": "TRUE_FALSE",
+      "explanation": "The Nile flows through northeastern Africa.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionText": "Spain and Portugal are on the Iberian Peninsula.",
+      "type": "TRUE_FALSE",
+      "explanation": "Spain and Portugal occupy most of the Iberian Peninsula.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "category": {
+    "name": "Science",
+    "color": "#2196F3"
+  },
+  "questions": [
+    {
+      "questionText": "Why does a metal spoon feel colder than a wooden spoon when both are kept in the same room?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Metal conducts heat much better than wood, so it draws heat away from your hand faster, making it feel colder.",
+      "options": [
+        { "text": "Metal has a lower temperature", "correct": false },
+        { "text": "Metal conducts heat away from your hand faster", "correct": true },
+        { "text": "Wood produces heat", "correct": false },
+        { "text": "Metal contains less energy", "correct": false }
+      ]
+    },
+    {
+      "questionText": "If an object is moving at a constant speed in a straight line, what is its acceleration?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Acceleration is the rate of change of velocity. Constant speed in a straight line means velocity is unchanged, so acceleration is zero.",
+      "options": [
+        { "text": "Increasing", "correct": false },
+        { "text": "Decreasing", "correct": false },
+        { "text": "Zero", "correct": true },
+        { "text": "Equal to its speed", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which of the following has the highest electrical resistance?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Among these materials, rubber is a good electrical insulator and has very high resistance.",
+      "options": [
+        { "text": "Copper", "correct": false },
+        { "text": "Aluminium", "correct": false },
+        { "text": "Silver", "correct": false },
+        { "text": "Rubber", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Why do astronauts appear weightless while orbiting Earth?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Astronauts and their spacecraft are continuously falling around Earth together. This continuous free fall creates the sensation of weightlessness.",
+      "options": [
+        { "text": "There is no gravity in space", "correct": false },
+        { "text": "They are outside Earth's atmosphere", "correct": false },
+        { "text": "They and their spacecraft are in continuous free fall", "correct": true },
+        { "text": "Their mass becomes zero", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What happens to the boiling point of water at a high altitude?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Atmospheric pressure decreases at higher altitudes, lowering the temperature at which water boils.",
+      "options": [
+        { "text": "It increases", "correct": false },
+        { "text": "It decreases", "correct": true },
+        { "text": "It remains exactly 100°C", "correct": false },
+        { "text": "Water cannot boil at high altitudes", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which colour of visible light has the shortest wavelength?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Violet light has the shortest wavelength in the visible spectrum, while red has the longest.",
+      "options": [
+        { "text": "Red", "correct": false },
+        { "text": "Yellow", "correct": false },
+        { "text": "Green", "correct": false },
+        { "text": "Violet", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is the chemical symbol for potassium?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Potassium's symbol is K, derived from its Latin name, Kalium.",
+      "options": [
+        { "text": "P", "correct": false },
+        { "text": "Pt", "correct": false },
+        { "text": "K", "correct": true },
+        { "text": "Po", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the pH of a neutral solution at 25°C?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "At 25°C, a neutral aqueous solution has a pH of 7.",
+      "options": [
+        { "text": "0", "correct": false },
+        { "text": "5", "correct": false },
+        { "text": "7", "correct": true },
+        { "text": "14", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which of these is a chemical change rather than a physical change?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Rusting produces new substances, mainly hydrated iron oxides, so it is a chemical change.",
+      "options": [
+        { "text": "Melting ice", "correct": false },
+        { "text": "Breaking glass", "correct": false },
+        { "text": "Dissolving sugar in water", "correct": false },
+        { "text": "Rusting iron", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which element has the atomic number 1?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Hydrogen has one proton in its nucleus, giving it atomic number 1.",
+      "options": [
+        { "text": "Helium", "correct": false },
+        { "text": "Hydrogen", "correct": true },
+        { "text": "Lithium", "correct": false },
+        { "text": "Oxygen", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which blood cells are primarily responsible for fighting infections?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "White blood cells, also called leukocytes, are key components of the immune system.",
+      "options": [
+        { "text": "Red blood cells", "correct": false },
+        { "text": "Platelets", "correct": false },
+        { "text": "White blood cells", "correct": true },
+        { "text": "Plasma cells only", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which layer of Earth's atmosphere contains most of the ozone layer?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Most atmospheric ozone is concentrated in the stratosphere, where it absorbs much of the Sun's harmful ultraviolet radiation.",
+      "options": [
+        { "text": "Troposphere", "correct": false },
+        { "text": "Stratosphere", "correct": true },
+        { "text": "Mesosphere", "correct": false },
+        { "text": "Thermosphere", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Why does lightning appear before thunder is heard?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Light travels vastly faster than sound, so the flash reaches us before the sound of thunder.",
+      "options": [
+        { "text": "Thunder is produced several seconds later", "correct": false },
+        { "text": "Light travels faster than sound", "correct": true },
+        { "text": "Lightning occurs at a higher temperature", "correct": false },
+        { "text": "Sound cannot travel through clouds", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which phenomenon explains why a straw appears bent when placed in a glass of water?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Refraction is the bending of light as it passes between materials with different refractive indices, such as air and water.",
+      "options": [
+        { "text": "Reflection", "correct": false },
+        { "text": "Diffraction", "correct": false },
+        { "text": "Refraction", "correct": true },
+        { "text": "Dispersion", "correct": false }
+      ]
+    },
+    {
+      "questionText": "A car travels 150 kilometres in 3 hours. What is its average speed?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Average speed = total distance ÷ total time = 150 ÷ 3 = 50 km/h.",
+      "options": [
+        { "text": "30 km/h", "correct": false },
+        { "text": "40 km/h", "correct": false },
+        { "text": "50 km/h", "correct": true },
+        { "text": "60 km/h", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which gas makes up the largest percentage of Earth's atmosphere?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Nitrogen makes up approximately 78% of dry air, making it the most abundant atmospheric gas.",
+      "options": [
+        { "text": "Oxygen", "correct": false },
+        { "text": "Carbon dioxide", "correct": false },
+        { "text": "Nitrogen", "correct": true },
+        { "text": "Argon", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which vitamin can the human body produce in the skin when exposed to sunlight?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Ultraviolet B radiation helps the skin produce vitamin D3.",
+      "options": [
+        { "text": "Vitamin A", "correct": false },
+        { "text": "Vitamin B12", "correct": false },
+        { "text": "Vitamin C", "correct": false },
+        { "text": "Vitamin D", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which type of energy is stored in a stretched spring?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "A stretched or compressed spring stores elastic potential energy.",
+      "options": [
+        { "text": "Chemical energy", "correct": false },
+        { "text": "Elastic potential energy", "correct": true },
+        { "text": "Nuclear energy", "correct": false },
+        { "text": "Sound energy", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the boiling point of the water?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Water boils at 100° C at sea level.",
+      "options": [
+        { "text": "110° C", "correct": false },
+        { "text": "100° C", "correct": true },
+        { "text": "0° C", "correct": false },
+        { "text": "10° C", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What is the primary function of an enzyme in the human body?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Enzymes are biological catalysts that speed up chemical reactions by lowering their activation energy.",
+      "options": [
+        { "text": "To permanently increase body temperature", "correct": false },
+        { "text": "To slow down all chemical reactions", "correct": false },
+        { "text": "To speed up specific chemical reactions", "correct": true },
+        { "text": "To store genetic information", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which sub-atomic particle has a negative electric charge?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Electrons carry a negative charge, protons carry a positive charge, and neutrons have no electric charge.",
+      "options": [
+        { "text": "Proton", "correct": false },
+        { "text": "Neutron", "correct": false },
+        { "text": "Electron", "correct": true },
+        { "text": "Nucleus", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which process allows green plants to convert light energy into chemical energy?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Photosynthesis uses light energy to help convert carbon dioxide and water into sugars, releasing oxygen as a by-product.",
+      "options": [
+        { "text": "Respiration", "correct": false },
+        { "text": "Photosynthesis", "correct": true },
+        { "text": "Transpiration", "correct": false },
+        { "text": "Fermentation", "correct": false }
+      ]
+    },
+    {
+      "questionText": "What happens to the electrical current in a simple series circuit if one bulb is removed and the circuit is left open?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "An open circuit breaks the conducting path, so current stops flowing throughout the series circuit.",
+      "options": [
+        { "text": "Current increases", "correct": false },
+        { "text": "Current decreases slightly", "correct": false },
+        { "text": "Current stops flowing", "correct": true },
+        { "text": "Current changes direction", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which of these substances is an element rather than a compound?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Oxygen gas (O₂) consists only of oxygen atoms. Water and carbon dioxide are compounds, while air is a mixture.",
+      "options": [
+        { "text": "Water", "correct": false },
+        { "text": "Carbon dioxide", "correct": false },
+        { "text": "Oxygen gas", "correct": true },
+        { "text": "Air", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Why does a pressure cooker cook food faster than an ordinary open pot?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Higher pressure raises the boiling point of water, allowing the food to cook at a higher temperature.",
+      "options": [
+        { "text": "It reduces the boiling point of water", "correct": false },
+        { "text": "It raises the boiling point of water", "correct": true },
+        { "text": "It removes all oxygen from food", "correct": false },
+        { "text": "It increases the amount of water in food", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which force keeps planets in orbit around the Sun?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "The Sun's gravitational attraction provides the centripetal acceleration that keeps planets in their orbits.",
+      "options": [
+        { "text": "Magnetic force", "correct": false },
+        { "text": "Frictional force", "correct": false },
+        { "text": "Gravitational force", "correct": true },
+        { "text": "Electrostatic force", "correct": false }
+      ]
+    },
+    {
+      "questionText": "Which of these is a renewable source of energy?",
+      "type": "MULTIPLE_CHOICE",
+      "explanation": "Solar energy is naturally replenished by the Sun, unlike fossil fuels such as coal and petroleum.",
+      "options": [
+        { "text": "Coal", "correct": false },
+        { "text": "Petroleum", "correct": false },
+        { "text": "Natural gas", "correct": false },
+        { "text": "Solar energy", "correct": true }
+      ]
+    },
+    {
+        "questionText": "Why do water droplets form on the outside of a cold glass?",
+        "type": "MULTIPLE_CHOICE",
+        "explanation": "Water vapour in the surrounding air cools when it touches the cold glass and condenses into liquid droplets. This process is called condensation.",
+        "options": [
+        { "text": "Water leaks through the glass", "correct": false },
+        { "text": "Water vapour in the air condenses on the glass", "correct": true },
+        { "text": "The glass produces water when cooled", "correct": false },
+        { "text": "The cold glass absorbs liquid water from the air", "correct": false }
+        ]
+    },
+    {
+        "questionText": "Why does a pressure cooker whistle when it is cooking?",
+        "type": "MULTIPLE_CHOICE",
+        "explanation": "Steam escaping through the pressure regulator causes it to vibrate, producing the familiar whistle. The regulator helps control the pressure inside the cooker.",
+        "options": [
+        { "text": "Water inside begins to freeze", "correct": false },
+        { "text": "Escaping steam makes the pressure regulator vibrate", "correct": true },
+        { "text": "The metal expands and produces sound by itself", "correct": false },
+        { "text": "Food releases trapped air that creates the whistle", "correct": false }
+        ]
+    },
+    {
+        "questionText": "Why does a wet cloth dry faster on a windy day?",
+        "type": "MULTIPLE_CHOICE",
+        "explanation": "Wind carries away the humid air surrounding the cloth, allowing more water to evaporate. This generally speeds up drying.",
+        "options": [
+        { "text": "Wind increases the boiling point of water", "correct": false },
+        { "text": "Wind changes water into oxygen", "correct": false },
+        { "text": "Wind removes moist air near the cloth, helping evaporation", "correct": true },
+        { "text": "Wind makes the cloth absorb water", "correct": false }
+        ]
+    },
+    {
+      "questionText": "All acids contain oxygen.",
+      "type": "TRUE_FALSE",
+      "explanation": "Hydrochloric acid (HCl) is an acid that contains no oxygen.",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Pure water is a good conductor of electricity.",
+      "type": "TRUE_FALSE",
+      "explanation": "Pure water is a very poor conductor. The ions dissolved in ordinary water are mainly responsible for its electrical conductivity.",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true }
+      ]
+    },
+    {
+      "questionText": "The mass of an object changes when it is taken from Earth to the Moon.",
+      "type": "TRUE_FALSE",
+      "explanation": "Mass remains the same. Weight changes because the Moon's gravitational acceleration is weaker than Earth's. Weight = Mass x Gravity",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Carbon dioxide is used by plants during photosynthesis.",
+      "type": "TRUE_FALSE",
+      "explanation": "Plants use carbon dioxide and water to produce sugars during photosynthesis.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "The nucleus of an atom contains protons and neutrons.",
+      "type": "TRUE_FALSE",
+      "explanation": "The nucleus contains positively charged protons and electrically neutral neutrons, except that ordinary hydrogen-1 has no neutron.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "questionText": "The ozone layer protects Earth by absorbing much of the Sun's ultraviolet radiation.",
+      "type": "TRUE_FALSE",
+      "explanation": "Stratospheric ozone absorbs much of the harmful ultraviolet radiation reaching Earth.",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    }
+  ]
+}
